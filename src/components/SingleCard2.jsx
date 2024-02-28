@@ -1,3 +1,4 @@
+import { motion } from "framer-motion";
 import { useState } from "react";
 import { Link } from "react-router-dom";
 
@@ -12,7 +13,15 @@ const SingleCard2 = ({ project }) => {
     setShowMore(!showMore);
   };
   return (
-    <div>
+    <motion.div
+      initial={{ opacity: 0.6 }}
+      whileHover={{
+        scale: 1.1,
+        transition: { duration: 1 },
+      }}
+      whileTap={{ scale: 0.9 }}
+      whileInView={{ opacity: 1 }}
+    >
       <div className="relative flex flex-col mt-6 text-gray-700 bg-white shadow-md bg-clip-border rounded-xl w-full h-72    hover:scale-105 transition-transform hover:bg-stone-200 mx-2">
         <div className="p-6">
           <h5 className="block mb-2 font-sans text-xl antialiased font-semibold leading-snug tracking-normal text-blue-gray-900">
@@ -49,7 +58,7 @@ const SingleCard2 = ({ project }) => {
           </a>
         </div>
       </div>
-    </div>
+    </motion.div>
   );
 };
 
