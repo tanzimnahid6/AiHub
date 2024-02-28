@@ -1,37 +1,42 @@
 const projects = [
   {
     id: 1,
-    title: "Customer Segmentation Analysis",
+    title: "Churn-Prediction-And-Prevention",
     description:
-      "Develop an AI-powered system to analyze customer data and segment them based on various attributes like demographics, behavior, and preferences to personalize marketing strategies.",
+      "This repository contains Python code for predictive churn analysis in a telecom industry setting. The purpose of this project is to develop a predictive model to identify potential churn customers and analyze factors contributing to customer attrition. The analysis includes exploratory data visualization, statistical summaries, and the implementation of a machine learning model using the RandomForestClassifier.",
+      gitHubUrl:'https://github.com/proAIrokibul/Churn-Prediction-And-Prevention/blob/main/Model/model.ipynb',
     imgUrl: "https://placekitten.com/200/300", // Example dummy image URL
   },
   {
     id: 2,
-    title: "Predictive Sales Forecasting",
+    title: "Movie Recommendation",
     description:
       "Build a predictive model using AI algorithms to forecast sales trends accurately, helping businesses optimize inventory management and resource allocation.",
+      gitHubUrl:'https://github.com/proAIrokibul/Movie-recommendation/blob/main/notebook86c26b4f17.ipynb',
     imgUrl: "https://placekitten.com/201/301", // Example dummy image URL
   },
   {
     id: 3,
-    title: "Churn Prediction and Prevention",
+    title:"Healthcare-Predictive-Modeling",
     description:
       "Create an AI system to predict customer churn by analyzing historical data and identifying factors leading to customer attrition. Implement proactive measures to prevent churn.",
+      gitHubUrl:"https://github.com/proAIrokibul/Healthcare-Predictive-Modeling/blob/main/main.ipynb",
     imgUrl: "https://placekitten.com/202/302", // Example dummy image URL
   },
   {
     id: 4,
-    title: "Sentiment Analysis for Brand Monitoring",
+    title: "Electrical-grid-stability",
     description:
       "Utilize natural language processing (NLP) techniques to analyze customer feedback from various sources (social media, reviews, etc.) and provide insights into brand perception and sentiment.",
+      gitHubUrl:'https://github.com/proAIrokibul/Electrical-grid-stability/blob/main/main.ipynb',
     imgUrl: "https://placekitten.com/203/303", // Example dummy image URL
   },
   {
     id: 5,
-    title: "Dynamic Pricing Optimization",
+    title: "Costumer-Segmentation-using-ML",
     description:
       "Develop an AI-driven pricing optimization system that adjusts prices in real-time based on factors such as demand, competitor pricing, and customer behavior to maximize revenue and profit.",
+      gitHubUrl:'https://github.com/proAIrokibul/Costomer-Segmentation-using-ML/blob/main/customer-segmentation.ipynb',
     imgUrl: "https://placekitten.com/204/304", // Example dummy image URL
   },
   {
