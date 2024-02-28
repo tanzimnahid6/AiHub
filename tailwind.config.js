@@ -6,7 +6,7 @@ export default {
     extend: {},
     container: {
       center: true,
-      padding: '6rem'
+      padding: '2rem'
     },
   },
   plugins: [require("daisyui")],
