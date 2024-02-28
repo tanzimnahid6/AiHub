@@ -17,9 +17,9 @@ const ModelCard = () => {
     setShowContent(6);
   };
   return (
-    <>
-    <h1 className="text-center font-bold text-5xl ">Our Latest Model</h1>
-      <div className="grid grid-cols-1 md:grid-cols-2 md:gap-20 lg:grid-cols-3 gap-6  my-8 place-items-center ">
+    <div className="my-14">
+      <h1 className="text-center font-bold text-5xl ">Our Latest Model</h1>
+      <div className="grid grid-cols-1 md:grid-cols-2 md:gap-20 lg:grid-cols-3 gap-6  place-items-center ">
         {projects.length > 0 ? (
           projects
             .slice(0, showContent)
@@ -36,7 +36,7 @@ const ModelCard = () => {
           {text ? "Show More" : "Show Less"}
         </button>
       </div>
-    </>
+    </div>
   );
 };
 
