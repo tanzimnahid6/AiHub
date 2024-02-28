@@ -2,7 +2,7 @@ import Lottie from "lottie-react";
 import animation from "../assets/animation.json";
 const Banner = () => {
   return (
-    <div className="md:flex justify-around gap-2 p-4 h-[450px] mt-16">
+    <div className="md:flex justify-around gap-2 p-4 md:h-[450px] mt-16 border border-red-600">
       <div className="md:w-1/2 md:order-2  ">
         <Lottie animationData={animation} className="h-96"></Lottie>
       </div>

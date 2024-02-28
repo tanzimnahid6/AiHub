@@ -3,6 +3,7 @@ import { useState } from "react";
 const SingleCard = ({ project }) => {
   const { title, description } = project;
   console.log(description.split(" ").length);
+  const githubLink = 'https://github.com/ahmedrafiq09/Image-Face-Detection-With-OpenCV-And-Python/blob/main/Image%20Face%20Detection.ipynb'
 
   const [showMore, setShowMore] = useState(false);
   const toggleShowMore = () => {
@@ -31,7 +32,7 @@ const SingleCard = ({ project }) => {
             </p>
           </p>
           <div className="inline-block">
-            <a href="https://github.com/ahmedrafiq09/Plants-Bees-">
+            <a href={githubLink}>
               <button
                 className="flex items-center gap-2 px-6 py-3 font-sans text-xs font-bold text-center text-gray-900 uppercase align-middle transition-all rounded-lg select-none disabled:opacity-50 disabled:shadow-none disabled:pointer-events-none hover:bg-gray-900/10 active:bg-gray-900/20"
                 type="button"
