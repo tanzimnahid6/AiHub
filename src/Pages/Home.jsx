@@ -3,13 +3,15 @@ import Banner from "../components/Banner";
 import ModelCard from "../components/ModelCard";
 import Footer from "../components/Footer";
 
+
 const Home = () => {
   return (
-    <div >
+    <div>
       <Navbar></Navbar>
-      <div className="w-10/12 mx-auto ">
+      <div className="container mx-auto ">
         <Banner></Banner>
         <ModelCard></ModelCard>
+        
       </div>
       <Footer></Footer>
     </div>

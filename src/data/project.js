@@ -74,3 +74,9 @@ const projects = [
 export const getProjects = () => {
   return projects;
 };
+
+export const getSingleProject = (id) => {
+  const model = projects.find((p) => p.id == id);
+  if (model) return model;
+  return "No project found";
+};

@@ -16,7 +16,7 @@ const router = createBrowserRouter([
         element: <Home></Home>,
       },
       {
-        path: "/singleModelInfo",
+        path: "/singleModelInfo/:modelId",
         element: <SingleModelPageInfo></SingleModelPageInfo>,
       },
       {
