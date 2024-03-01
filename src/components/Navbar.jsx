@@ -29,26 +29,17 @@ const Navbar = () => {
                 <a>Home</a>
               </li>
               <li>
-                <a>Price</a>
+                <a>Model</a>
               </li>
               <li>
-                <a>Parent</a>
-                <ul className="p-2">
-                  <li>
-                    <a>Submenu 1</a>
-                  </li>
-                  <li>
-                    <a>Submenu 2</a>
-                  </li>
-                </ul>
+                <a>Contact Us</a>
+                
               </li>
-              <li>
-                <a>Item 3</a>
-              </li>
+           
             </ul>
           </div>
-          <div>
-            <img src={logo} className='w-16 h-auto' alt="Logo" />
+          <div className='pl-4'>
+            <img src={logo} className='w-16 h-auto ' alt="Logo" />
           </div>
         </div>
         <div className="navbar-center hidden lg:flex">
@@ -57,24 +48,12 @@ const Navbar = () => {
                 <a>Home</a>
               </li>
               <li>
-                <a>Price</a>
+                <a>Model</a>
               </li>
             <li>
-              <details>
-                <summary>Parent</summary>
-                <ul className="p-2">
-                  <li>
-                    <a>Submenu 1</a>
-                  </li>
-                  <li>
-                    <a>Submenu 2</a>
-                  </li>
-                </ul>
-              </details>
+            <a href="">Contact Us</a>
             </li>
-            <li>
-              <a>Item 3</a>
-            </li>
+            
           </ul>
         </div>
         <div className="navbar-end">

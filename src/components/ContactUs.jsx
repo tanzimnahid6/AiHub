@@ -86,7 +86,7 @@ const ContactUs = () => {
                 </button>
               </form>
             </div>
-            <div className="w-full shrink-0 grow-0 basis-auto lg:w-7/12 border border-green-500">
+            <div className="w-full shrink-0 grow-0 basis-auto lg:w-7/12 border ">
               <div className="flex flex-wrap">
                 <Facebook></Facebook>
                 <LinkedIn></LinkedIn>
