@@ -25,11 +25,11 @@ const Banner = () => {
         <Lottie animationData={animation} className="h-96"></Lottie>
       </motion.div>
       <motion.div
-        animate={{ x: 50 }}
+        animate={{ x: -20 }}
         transition={{ ease: "easeOut", duration: 2 }}
         className="md:w-1/2 w-full md:order-1"
       >
-        <p className="text-4xl md:text-7xl font-bold  bg-gradient-to-r from-[#1e6162] to-[#5cc4a8] bg-clip-text text-transparent leading-1">
+        <p className="text-3xl  md:text-7xl font-bold   bg-gradient-to-r from-[#1e6162] to-[#5cc4a8] bg-clip-text text-transparent leading-1">
           Elevate Your Experience: AI Magic in Every Click
         </p>
         <p className="text-gray-500 leading-8 text-xl md:text-2xl font-bold mt-6">

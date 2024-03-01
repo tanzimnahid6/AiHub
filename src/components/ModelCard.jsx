@@ -10,7 +10,7 @@ const ModelCard = () => {
 
   return (
     <div className="my-14">
-      <h1 className="text-center font-bold text-5xl py-8">
+      <h1 className="text-center font-bold text-2xl md:text-5xl py-8">
         Our Latest Business <br /> Oriented Model
       </h1>
       <div className="grid grid-cols-1 md:grid-cols-2 md:gap-20 lg:grid-cols-3 gap-6  place-items-center ">
