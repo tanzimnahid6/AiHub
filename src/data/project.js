@@ -51,6 +51,36 @@ const projects = [
     outputUrl:
       "https://github.com/proAIrokibul/Fraud-Detection-And-Prevention/tree/main/Output",
   },
+  {
+    id: 7,
+    title: "Predictive-Maintenance",
+    description:
+      "In today's industrial landscape, unplanned downtime due to machinery failures can result in significant financial losses and operational disruptions. To mitigate these challenges, predictive maintenance techniques leverage advanced analytics and machine learning algorithms to predict potential failures before they occur. This GitHub project offers a comprehensive solution for predictive maintenance tailored for industrial machinery.",
+    gitHubUrl:
+      "https://github.com/proAIrokibul/Predictive-Maintenance/blob/main/Predictive%20Maintainace/Model/Predictive_Maintainance.ipynb",
+    outputUrl:
+      "https://github.com/proAIrokibul/Predictive-Maintenance/tree/main/Predictive%20Maintainace/Output",
+  },
+  {
+    id: 8,
+    title: "Supply-Chain-Optimization",
+    description:
+      "This GitHub repository presents a comprehensive analysis of the supply chain for makeup products, focusing on optimizing efficiency, reducing costs, and enhancing customer satisfaction. The analysis utilizes a rich dataset collected from a Fashion and Beauty startup, encompassing various aspects of the supply chain process.",
+    gitHubUrl:
+      "https://github.com/proAIrokibul/Supply-Chain-Optimization/blob/main/Supply%20Chain%20Optimization/Models/supply_chain_optimization.ipynb",
+    outputUrl:
+      "https://github.com/proAIrokibul/Supply-Chain-Optimization/tree/main/Supply%20Chain%20Optimization/Output",
+  },
+  {
+    id: 9,
+    title: "Sentiment Analysis for Brand Monitoring",
+    description:
+      "This project focuses on utilizing natural language processing (NLP) techniques to perform sentiment analysis for brand monitoring. The sentiment analysis allows businesses to gain insights into public perception, customer opinions, and trends related to their brand. By analyzing text data from various sources such as social media, customer reviews, and news articles, businesses can better understand their brand's reputation and make informed decisions to enhance brand perception and customer satisfaction.",
+    gitHubUrl:
+      "https://github.com/proAIrokibul/Sentiment-Analysis-/blob/main/Sentiment%20Analysis/Model/sentiment.ipynb",
+    outputUrl:
+      "https://github.com/proAIrokibul/Sentiment-Analysis-/tree/main/Sentiment%20Analysis/Output",
+  },
 ];
 
 export const getProjects = () => {
