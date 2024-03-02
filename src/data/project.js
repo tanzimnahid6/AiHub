@@ -15,7 +15,9 @@ const projects = [
     description:
       "Build a predictive model using AI algorithms to forecast sales trends accurately, helping businesses optimize inventory management and resource allocation.",
     gitHubUrl:
-      "https://github.com/proAIrokibul/Movie-recommendation/blob/main/notebook86c26b4f17.ipynb",
+      "https://github.com/proAIrokibul/Movie-recommendation/blob/main/Model/app.py",
+    outputUrl:
+      "https://github.com/proAIrokibul/Movie-recommendation/tree/main/Output",
   },
   {
     id: 3,
@@ -23,7 +25,8 @@ const projects = [
     description:
       "Create an AI system to predict customer churn by analyzing historical data and identifying factors leading to customer attrition. Implement proactive measures to prevent churn.",
     gitHubUrl:
-      "https://github.com/proAIrokibul/Healthcare-Predictive-Modeling/blob/main/main.ipynb",
+      "https://github.com/proAIrokibul/Healthcare-Predictive-Modeling/tree/main/model",
+    outputUrl: "https://github.com/proAIrokibul/Healthcare-Predictive-Modeling",
   },
   {
     id: 4,
@@ -31,7 +34,9 @@ const projects = [
     description:
       "Utilize natural language processing (NLP) techniques to analyze customer feedback from various sources (social media, reviews, etc.) and provide insights into brand perception and sentiment.",
     gitHubUrl:
-      "https://github.com/proAIrokibul/Electrical-grid-stability/blob/main/main.ipynb",
+      "https://github.com/proAIrokibul/Electrical-grid-stability/tree/main/Electrical-grid-stability-main/model",
+    outputUrl:
+      "https://github.com/proAIrokibul/Electrical-grid-stability/tree/main/Electrical-grid-stability-main/Output",
   },
   {
     id: 5,
@@ -39,7 +44,9 @@ const projects = [
     description:
       "Develop an AI-driven pricing optimization system that adjusts prices in real-time based on factors such as demand, competitor pricing, and customer behavior to maximize revenue and profit.",
     gitHubUrl:
-      "https://github.com/proAIrokibul/Costomer-Segmentation-using-ML/blob/main/customer-segmentation.ipynb",
+      "https://github.com/proAIrokibul/Costomer-Segmentation-using-ML/tree/main/Costomer-Segmentation-using-ML-main/Model",
+    outputUrl:
+      "https://github.com/proAIrokibul/Costomer-Segmentation-using-ML/tree/main/Costomer-Segmentation-using-ML-main/Output",
   },
   {
     id: 6,
