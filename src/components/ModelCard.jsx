@@ -9,7 +9,7 @@ const ModelCard = () => {
 
 
   return (
-    <div className="my-14">
+    <div className="my-14" id="model">
       <h1 className="text-center font-bold text-2xl md:text-5xl py-8">
         Our Latest Business <br /> Oriented Model
       </h1>

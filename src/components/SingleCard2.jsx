@@ -7,12 +7,12 @@ const SingleCard2 = ({ project }) => {
 
   return (
     <div>
-      <div className="relative flex flex-col  text-gray-700 bg-white shadow-md bg-clip-border rounded-xl w-full h-80 hover:scale-105 transition-transform hover:bg-stone-200 ">
-        <div className="p-4">
+      <div className="relative flex flex-col text-gray-700 bg-white shadow-md bg-clip-border rounded-xl w-full h-80 hover:scale-105 transition-transform hover:bg-stone-200 ">
+        <div className="p-4  h-1/2">
           <h5 className="block mb-2 font-sans text-xl antialiased font-semibold leading-snug tracking-normal text-blue-gray-900">
             {title}
           </h5>
-          <p className="block font-sans text-base antialiased font-light leading-relaxed text-inherit ">
+          <p className="block  text-base antialiased font-light leading-relaxed text-inherit ">
             {`${description.slice(0, 100)}...`}
           </p>
         </div>
@@ -43,13 +43,16 @@ const SingleCard2 = ({ project }) => {
           ) : (
             <button
             type="button"
+            onClick={()=>notify()}
             className="py-3 px-4 inline-flex items-center gap-x-2 text-sm font-semibold rounded-lg border border-transparent bg-teal-500 text-white hover:bg-teal-600 disabled:opacity-50 disabled:pointer-events-none dark:focus:outline-none dark:focus:ring-1 dark:focus:ring-gray-600"
           >
             Output
           </button>
           )}
+
         </div>
-        <div className="px-4 text-center">
+
+        <div className="px-4 text-center ">
           <a>
             <button
               type="button"
@@ -59,6 +62,7 @@ const SingleCard2 = ({ project }) => {
             </button>
           </a>
         </div>
+
       </div>
     </div>
   );

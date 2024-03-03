@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 
 const Banner = () => {
   return (
-    <div className="md:flex justify-around gap-2 p-4 my-4">
+    <div className="md:flex justify-around gap-2 p-4 mt-32 my-4" id="home">
       <motion.div
         initial={{ opacity: 0, scale: 0.5 }}
         animate={{ opacity: 1, scale: 1 }}
