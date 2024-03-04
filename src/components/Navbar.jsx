@@ -1,8 +1,11 @@
 import logo from "../assets/logo1.png";
+
+import logoBlack from "../assets/logowbg.png";
+
 const Navbar = () => {
   return (
     <div>
-      <div className="navbar font-bold py-0 float fixed z-30 bg-[#b0e4d9] ">
+      <div className="navbar font-bold py-0 float fixed z-30 bg-[#B0E4D9]  ">
         <div className="navbar-start">
           <div className="dropdown">
             <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
@@ -32,12 +35,12 @@ const Navbar = () => {
                 <a href="#model">Model</a>
               </li>
               <li>
-              <a href="#contact">Contact Us</a>
+                <a href="#contact">Contact Us</a>
               </li>
             </ul>
           </div>
-          <div className="pl-4">
-            <img src={logo} className="w-16 h-auto " alt="Logo" />
+          <div className="pl-4 ">
+            <img src={logoBlack} className="w-16 h-auto " alt="Logo" />
           </div>
         </div>
         <div className="navbar-center hidden lg:flex">
@@ -46,10 +49,18 @@ const Navbar = () => {
               <a href="#home">Home </a>
             </li>
             <li>
-              <a href="#model">Model</a>
+              <a href="#home">About us </a>
+            </li>
+
+            <li>
+              <a href="#model">Business model</a>
             </li>
             <li>
-              <a href="#contact">Contact Us</a>
+              <a href="#contact">Publication</a>
+            </li>
+
+            <li>
+              <a href="#home">Services </a>
             </li>
           </ul>
         </div>

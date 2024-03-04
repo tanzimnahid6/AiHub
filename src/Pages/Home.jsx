@@ -7,7 +7,7 @@ import ContactUs from "../components/ContactUs";
 
 const Home = () => {
   return (
-    <div className="font-serif">
+    <div className="font-serif ">
       <Navbar></Navbar>
       <div className="w-10/12 mx-auto ">
         <Banner></Banner>

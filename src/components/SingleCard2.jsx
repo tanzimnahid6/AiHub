@@ -1,5 +1,5 @@
 import { toast } from "react-toastify";
-
+import { MdOutlineElectricBolt } from "react-icons/md";
 const SingleCard2 = ({ project }) => {
   const { title, description, gitHubUrl, outputUrl } = project;
 
@@ -8,12 +8,13 @@ const SingleCard2 = ({ project }) => {
   return (
     <div>
       <div className="relative flex flex-col text-gray-700 bg-white shadow-md bg-clip-border rounded-xl w-full h-80 hover:scale-105 transition-transform hover:bg-stone-200 ">
-        <div className="p-4  h-1/2">
+        <div className="p-2  h-2/3 ">
+        
           <h5 className="block mb-2 font-sans text-xl antialiased font-semibold leading-snug tracking-normal text-blue-gray-900">
-            {title}
+          <MdOutlineElectricBolt color="#00BCD4" className="inline-block "/>{title}
           </h5>
           <p className="block  text-base antialiased font-light leading-relaxed text-inherit ">
-            {`${description.slice(0, 100)}...`}
+            {`${description.slice(0, 130)}...`}
           </p>
         </div>
 
@@ -32,27 +33,26 @@ const SingleCard2 = ({ project }) => {
           {outputUrl ? (
             <div>
               <a href={outputUrl}>
-              <button
-                type="button"
-                className="py-3 px-4 inline-flex items-center gap-x-2 text-sm font-semibold rounded-lg border border-transparent bg-teal-500 text-white hover:bg-teal-600 disabled:opacity-50 disabled:pointer-events-none dark:focus:outline-none dark:focus:ring-1 dark:focus:ring-gray-600"
-              >
-                Output
-              </button>
+                <button
+                  type="button"
+                  className="py-3 px-4 inline-flex items-center gap-x-2 text-sm font-semibold rounded-lg border border-transparent bg-teal-500 text-white hover:bg-teal-600 disabled:opacity-50 disabled:pointer-events-none dark:focus:outline-none dark:focus:ring-1 dark:focus:ring-gray-600"
+                >
+                  Output
+                </button>
               </a>
             </div>
           ) : (
             <button
-            type="button"
-            onClick={()=>notify()}
-            className="py-3 px-4 inline-flex items-center gap-x-2 text-sm font-semibold rounded-lg border border-transparent bg-teal-500 text-white hover:bg-teal-600 disabled:opacity-50 disabled:pointer-events-none dark:focus:outline-none dark:focus:ring-1 dark:focus:ring-gray-600"
-          >
-            Output
-          </button>
+              type="button"
+              onClick={() => notify()}
+              className="py-3 px-4 inline-flex items-center gap-x-2 text-sm font-semibold rounded-lg border border-transparent bg-teal-500 text-white hover:bg-teal-600 disabled:opacity-50 disabled:pointer-events-none dark:focus:outline-none dark:focus:ring-1 dark:focus:ring-gray-600"
+            >
+              Output
+            </button>
           )}
-
         </div>
 
-        <div className="px-4 text-center ">
+        <div className="px-4 text-center pb-4">
           <a>
             <button
               type="button"
@@ -62,7 +62,6 @@ const SingleCard2 = ({ project }) => {
             </button>
           </a>
         </div>
-
       </div>
     </div>
   );

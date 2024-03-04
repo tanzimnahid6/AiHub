@@ -24,9 +24,9 @@ const Facebook = () => {
             <p className="text-neutral-500 hover:text-[#1877F2] dark:text-neutral-200">
             www.facebook.com/BizNestAI
             </p>
-            <p className="text-neutral-500 hover:text-[#1877F2] dark:text-neutral-200">
-              +1 234-567-89
-            </p>
+            {/* <p className="text-neutral-500 hover:text-[#1877F2] dark:text-neutral-200">
+              
+            </p> */}
           </div>
         </div>
       </a>

@@ -25,9 +25,9 @@ const LinkedIn = () => {
             <p className="text-neutral-500 dark:text-neutral-200">
               sales@example.com
             </p>
-            <p className="text-neutral-500 dark:text-neutral-200">
+            {/* <p className="text-neutral-500 dark:text-neutral-200">
               +1 234-567-89
-            </p>
+            </p> */}
           </div>
         </div>
       </div>
