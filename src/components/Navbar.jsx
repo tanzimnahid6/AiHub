@@ -1,4 +1,4 @@
-import logo from "../assets/logo1.png";
+
 
 import logoBlack from "../assets/logowbg.png";
 
@@ -49,18 +49,18 @@ const Navbar = () => {
               <a href="#home">Home </a>
             </li>
             <li>
-              <a href="#home">About us </a>
+              <a href="">About us </a>
             </li>
 
             <li>
               <a href="#model">Business model</a>
             </li>
             <li>
-              <a href="#contact">Publication</a>
+              <a href="">Publication</a>
             </li>
 
             <li>
-              <a href="#home">Services </a>
+              <a href="">Services </a>
             </li>
           </ul>
         </div>

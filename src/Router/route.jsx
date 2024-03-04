@@ -4,6 +4,7 @@ import Root from "../Pages/Root";
 import ErrorPage from "../Pages/ErrorPage";
 import Home from "../Pages/Home";
 import SingleModelPageInfo from "../Pages/SingleModelPageInfo";
+import Login from "../Pages/Login";
 
 const router = createBrowserRouter([
   {
@@ -21,7 +22,7 @@ const router = createBrowserRouter([
       },
       {
         path: "/login",
-        element: <p>Login page</p>,
+        element: <Login></Login>,
       },
     ],
   },

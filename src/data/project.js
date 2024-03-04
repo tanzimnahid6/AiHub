@@ -8,42 +8,6 @@ const projects = [
       "https://github.com/proAIrokibul/Churn-Prediction-And-Prevention/blob/main/Model/model.ipynb",
     outputUrl:
       "https://github.com/proAIrokibul/Churn-Prediction-And-Prevention/tree/main/Output",
-      readme:{
-        title:  'Enhancing Customer Retention with Predictive Churn Analysis',
-        overview:'This repository presents a strategic approach to predictive churn analysis tailored for the telecom industry. The project focuses on developing a sophisticated predictive model to proactively identify potential churn customers and analyze the underlying factors driving customer attrition. By leveraging advanced data analytics and machine learning techniques, this initiative aims to empower telecom companies to anticipate and mitigate customer churn effectively, thereby enhancing customer retention rates and fostering long-term business sustainability.',
-        keyFeatures:{
-          
-        }
-      }
-  },
-  {
-    id: 2,
-    title: "Movie Recommendation",
-    description:
-      "Build a predictive model using AI algorithms to forecast sales trends accurately, helping businesses optimize inventory management and resource allocation.",
-    gitHubUrl:
-      "https://github.com/proAIrokibul/Movie-recommendation/blob/main/Model/app.py",
-    outputUrl:
-      "https://github.com/proAIrokibul/Movie-recommendation/tree/main/Output",
-  },
-  {
-    id: 3,
-    title: "Healthcare-Predictive-Modeling",
-    description:
-      "Create an AI system to predict customer churn by analyzing historical data and identifying factors leading to customer attrition. Implement proactive measures to prevent churn.",
-    gitHubUrl:
-      "https://github.com/proAIrokibul/Healthcare-Predictive-Modeling/tree/main/model",
-    outputUrl: "https://github.com/proAIrokibul/Healthcare-Predictive-Modeling",
-  },
-  {
-    id: 4,
-    title: "Electrical-grid-stability",
-    description:
-      "Utilize natural language processing (NLP) techniques to analyze customer feedback from various sources (social media, reviews, etc.) and provide insights into brand perception and sentiment.",
-    gitHubUrl:
-      "https://github.com/proAIrokibul/Electrical-grid-stability/tree/main/Electrical-grid-stability-main/model",
-    outputUrl:
-      "https://github.com/proAIrokibul/Electrical-grid-stability/tree/main/Electrical-grid-stability-main/Output",
   },
   {
     id: 5,
@@ -94,6 +58,36 @@ const projects = [
       "https://github.com/proAIrokibul/Sentiment-Analysis-/blob/main/Sentiment%20Analysis/Model/sentiment.ipynb",
     outputUrl:
       "https://github.com/proAIrokibul/Sentiment-Analysis-/tree/main/Sentiment%20Analysis/Output",
+  },
+
+  {
+    id: 2,
+    title: "Movie Recommendation",
+    description:
+      "Build a predictive model using AI algorithms to forecast sales trends accurately, helping businesses optimize inventory management and resource allocation.",
+    gitHubUrl:
+      "https://github.com/proAIrokibul/Movie-recommendation/blob/main/Model/app.py",
+    outputUrl:
+      "https://github.com/proAIrokibul/Movie-recommendation/tree/main/Output",
+  },
+  {
+    id: 3,
+    title: "Healthcare-Predictive-Modeling",
+    description:
+      "Create an AI system to predict customer churn by analyzing historical data and identifying factors leading to customer attrition. Implement proactive measures to prevent churn.",
+    gitHubUrl:
+      "https://github.com/proAIrokibul/Healthcare-Predictive-Modeling/tree/main/model",
+    outputUrl: "https://github.com/proAIrokibul/Healthcare-Predictive-Modeling",
+  },
+  {
+    id: 4,
+    title: "Electrical-grid-stability",
+    description:
+      "Utilize natural language processing (NLP) techniques to analyze customer feedback from various sources (social media, reviews, etc.) and provide insights into brand perception and sentiment.",
+    gitHubUrl:
+      "https://github.com/proAIrokibul/Electrical-grid-stability/tree/main/Electrical-grid-stability-main/model",
+    outputUrl:
+      "https://github.com/proAIrokibul/Electrical-grid-stability/tree/main/Electrical-grid-stability-main/Output",
   },
 ];
 

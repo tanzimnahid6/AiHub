@@ -1,17 +1,43 @@
 import { toast } from "react-toastify";
 import { MdOutlineElectricBolt } from "react-icons/md";
-const SingleCard2 = ({ project }) => {
-  const { title, description, gitHubUrl, outputUrl } = project;
+import Modal from "./Modal";
+import { useState } from "react";
+const SingleCard2 = ({
+  project,
+  showModal,
+  setShowModal,
+  selectedModel,
+  setSelectedModel,
+}) => {
+  const { title, description, gitHubUrl, outputUrl, id } = project;
+
+  const handleModelSelection = () => {
+    setSelectedModel(project);
+    setShowModal(true);
+  };
+
+  const handleModelClose = ()=>{
+    setShowModal(false)
+    setSelectedModel(null)
+
+  }
 
   const notify = () => toast("Repository not found coming soon!");
 
   return (
-    <div>
+    <>
+      {showModal && (
+        <Modal
+          description={selectedModel.description}
+          title={selectedModel.title}
+          handleModelClose={handleModelClose}
+        />
+      )}
       <div className="relative flex flex-col text-gray-700 bg-white shadow-md bg-clip-border rounded-xl w-full h-80 hover:scale-105 transition-transform hover:bg-stone-200 ">
         <div className="p-2  h-2/3 ">
-        
           <h5 className="block mb-2 font-sans text-xl antialiased font-semibold leading-snug tracking-normal text-blue-gray-900">
-          <MdOutlineElectricBolt color="#00BCD4" className="inline-block "/>{title}
+            <MdOutlineElectricBolt color="#00BCD4" className="inline-block " />
+            {title}
           </h5>
           <p className="block  text-base antialiased font-light leading-relaxed text-inherit ">
             {`${description.slice(0, 130)}...`}
@@ -55,6 +81,7 @@ const SingleCard2 = ({ project }) => {
         <div className="px-4 text-center pb-4">
           <a>
             <button
+              onClick={handleModelSelection}
               type="button"
               className="py-3 px-4  items-center gap-x-2 text-sm font-semibold rounded-lg border border-teal-500 text-teal-500 hover:border-teal-400 hover:text-white   hover:bg-teal-400 disabled:opacity-50 disabled:pointer-events-none dark:border-teal-500 dark:text-teal-500 dark:hover:text-teal-400 dark:hover:border-teal-400 dark:focus:outline-none dark:focus:ring-1 dark:focus:ring-gray-600 w-full"
             >
@@ -63,7 +90,7 @@ const SingleCard2 = ({ project }) => {
           </a>
         </div>
       </div>
-    </div>
+    </>
   );
 };
 
