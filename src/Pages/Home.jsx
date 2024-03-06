@@ -4,6 +4,8 @@ import ModelCard from "../components/ModelCard";
 import Footer from "../components/Footer";
 import Accordion from "../components/Accordion";
 import ContactUs from "../components/ContactUs";
+import AboutUs from "../components/AboutUs";
+import MissionVision from "../components/MissionVission";
 
 //bg-black bg-opacity-70  z-10 absolute top-0 left-0
 const Home = () => {
@@ -16,6 +18,8 @@ const Home = () => {
         <ModelCard></ModelCard>
         <Accordion></Accordion>
         <ContactUs></ContactUs>
+        <AboutUs></AboutUs>
+        <MissionVision></MissionVision>
       </div>
       <Footer></Footer>
     </div>
