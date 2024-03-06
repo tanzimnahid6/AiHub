@@ -19,7 +19,7 @@ const AboutUs = () => {
                 <h2 className="my-6 text-2xl tracking-tight font-extrabold text-gray-900 sm:text-3xl md:text-4xl">
                   About us
                 </h2>
-                <p>
+                <p className="leading-7">
                   Welcome to BizNest AI! We are passionate about driving
                   innovation and growth in businesses worldwide through the
                   transformative power of Artificial Intelligence (AI). Our

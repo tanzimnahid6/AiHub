@@ -32,9 +32,8 @@ const Banner = () => {
         <p className="text-3xl  md:text-7xl font-bold   bg-gradient-to-r from-[#1e6162] to-[#5cc4a8] bg-clip-text text-transparent leading-1">
           Elevate Your Experience: AI Magic in Every Click
         </p>
-        <p className="text-gray-500 leading-8 text-xl md:text-2xl font-bold mt-6">
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laborum ut
-          nisi voluptatem saepe excepturi voluptatem saepe excepturi.
+        <p className="text-gray-500 leading-8 text-xl md:text-xl font-bold mt-6">
+        Our vision is to be the leading catalyst for business transformation through AI, shaping a future where every business, regardless of size or industry, can harness the full potential of AI to achieve unprecedented success
         </p>
       </motion.div>
     </div>

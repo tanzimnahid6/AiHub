@@ -8,28 +8,46 @@ const Accordion = () => {
         <div className="collapse collapse-arrow join-item border border-base-300">
           <input type="radio" name="my-accordion-4" defaultChecked />
           <div className="collapse-title text-xl font-medium">
-         1. How does biznestai work?
+         1.What is BizNest AI?
           </div>
           <div className="collapse-content">
-            <p>Our platform uses advanced Natural Language Processing (NLP) and Machine Learning (ML) algorithms to analyze your input and generate high-quality content based on your needs. You select the type of content you need and provide a few keywords or prompts, and our AI will take care of the rest!</p>
+            <p>BizNest AI is a leading provider of Artificial Intelligence solutions and services aimed at helping businesses worldwide leverage AI technologies to drive growth, innovation, and success.</p>
           </div>
         </div>
         <div className="collapse collapse-arrow join-item border border-base-300">
           <input type="radio" name="my-accordion-4" />
           <div className="collapse-title text-xl font-medium">
-           2. How does biznestai work?
+           2. Who can benefit from BizNest AI services?
           </div>
           <div className="collapse-content">
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure vel, doloremque, a dolorem porro quam assumenda voluptatem veniam quia, quaerat perferendis obcaecati laborum? At veritatis in quo totam, cupiditate incidunt.</p>
+            <p>Our services are designed to cater to both new and existing businesses seeking to integrate AI into their operations, as well as individuals interested in learning how to apply AI in a business context.</p>
           </div>
         </div>
         <div className="collapse collapse-arrow join-item border border-base-300">
           <input type="radio" name="my-accordion-4" />
           <div className="collapse-title text-xl font-medium">
-           3. How does biznestai work?
+           3. What types of AI solutions does BizNest AI offer?
           </div>
           <div className="collapse-content">
-            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Obcaecati facilis, temporibus similique iure officia aliquam est asperiores incidunt laboriosam assumenda eum, quae quam, numquam labore suscipit doloribus saepe ex sapiente ipsum accusamus dignissimos et! Accusamus atque saepe impedit iusto, ex esse dolores aut autem itaque, dolorem ab, cumque odit quos!</p>
+            <p>We offer a wide range of AI solutions, including consulting services, implementation and integration, training and education, solution development, and ongoing support and maintenance.</p>
+          </div>
+        </div>
+        <div className="collapse collapse-arrow join-item border border-base-300">
+          <input type="radio" name="my-accordion-4" />
+          <div className="collapse-title text-xl font-medium">
+           4. How can I get started with BizNest AI?
+          </div>
+          <div className="collapse-content">
+            <p>To get started, simply visit our website and explore our services. You can contact us directly to discuss your specific needs and objectives, and our team will work with you to develop a tailored solution.</p>
+          </div>
+        </div>
+        <div className="collapse collapse-arrow join-item border border-base-300">
+          <input type="radio" name="my-accordion-4" />
+          <div className="collapse-title text-xl font-medium">
+           4. Is my data safe with BizNest AI?
+          </div>
+          <div className="collapse-content">
+            <p>Yes, we are committed to safeguarding the privacy and security of your personal information. We implement appropriate measures to protect data against unauthorized access, alteration, disclosure, or destruction.</p>
           </div>
         </div>
       </div>
