@@ -2,16 +2,18 @@ import { useState } from "react";
 import { getProjects } from "../data/project";
 
 import SingleCard2 from "./SingleCard2";
+import Heading from "./Heading";
 
 const projects = getProjects();
 const ModelCard = () => {
   const [showModal, setShowModal] = useState(false);
-  const [selectedModel,setSelectedModel] = useState(null)
+  const [selectedModel, setSelectedModel] = useState(null);
   return (
     <div className="my-14" id="model">
-      <h1 className="text-center font-bold text-2xl md:text-5xl py-8">
+      <Heading>
+        
         Our Latest Business <br /> Oriented Model
-      </h1>
+      </Heading>
 
       <div className="grid grid-cols-1 md:grid-cols-2 md:gap-20 lg:grid-cols-3 gap-6  place-items-center ">
         {projects.length > 0 ? (

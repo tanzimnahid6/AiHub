@@ -1,3 +1,4 @@
+/* eslint-disable react/no-unescaped-entities */
 const AboutUsPara1 = () => {
     return (
       <div className="flex flex-col sm:flex-row md:flex-row  md:my-28 lg:gap-20 md:gap-10">

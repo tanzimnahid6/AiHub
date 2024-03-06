@@ -1,4 +1,4 @@
-import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 import logoBlack from "../assets/logowbg.png";
 
 const Navbar = () => {
@@ -27,15 +27,82 @@ const Navbar = () => {
               tabIndex={0}
               className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52"
             >
-              <li>
-                <a href="#home">Home </a>
-              </li>
-              <li>
-                <a href="#model">Model</a>
-              </li>
-              <li>
-                <a href="#contact">Contact Us</a>
-              </li>
+               <span className=" items-center flex py-2">
+              <NavLink
+                to="/"
+                className={({ isActive, isPending }) =>
+                  isPending
+                    ? ""
+                    : isActive
+                    ? "text-black p-2 bg-[#A1D1C9] rounded-lg"
+                    : ""
+                }
+              >
+                Home
+              </NavLink>
+            </span>
+
+           
+            <span className=" items-center flex py-2">
+              <NavLink
+                to="/aboutUs"
+                className={({ isActive, isPending }) =>
+                  isPending
+                    ? ""
+                    : isActive
+                    ? "text-black p-2 bg-[#A1D1C9] rounded-lg"
+                    : ""
+                }
+              >
+                About
+              </NavLink>
+            </span>
+
+           
+            <span className=" items-center flex py-2">
+              <NavLink
+                to="/model"
+                className={({ isActive, isPending }) =>
+                  isPending
+                    ? ""
+                    : isActive
+                    ? "text-black p-2 bg-[#A1D1C9] rounded-lg"
+                    : ""
+                }
+              >
+                Business model
+              </NavLink>
+            </span>
+            
+            <span className=" items-center flex py-2">
+              <NavLink
+                to="/services"
+                className={({ isActive, isPending }) =>
+                  isPending
+                    ? ""
+                    : isActive
+                    ? "text-black p-2 bg-[#A1D1C9] rounded-lg"
+                    : ""
+                }
+              >
+                Services
+              </NavLink>
+            </span>
+            
+            <span className=" items-center flex py-2">
+              <NavLink
+                to="/publication"
+                className={({ isActive, isPending }) =>
+                  isPending
+                    ? ""
+                    : isActive
+                    ? "text-black p-2 bg-[#A1D1C9] rounded-lg"
+                    : ""
+                }
+              >
+                Publication
+              </NavLink>
+            </span>
             </ul>
           </div>
           <div className="pl-4 ">
@@ -44,22 +111,84 @@ const Navbar = () => {
         </div>
         <div className="navbar-center hidden lg:flex">
           <ul className="menu menu-horizontal px-1">
-            <li>
-              <Link to="/">Home</Link>
-            </li>
-            <li>
-              <Link to="/aboutUs">About</Link>
-            </li>
+            
 
-            <li>
-              <Link to="/model">Business model</Link>
-            </li>
-            <li>
-              <Link to="/services">Services </Link>
-            </li>
-            <li>
-              <Link to="/publication">Publication</Link>
-            </li>
+            <span className=" items-center flex px-3">
+              <NavLink
+                to="/"
+                className={({ isActive, isPending }) =>
+                  isPending
+                    ? ""
+                    : isActive
+                    ? "text-black p-2 bg-[#A1D1C9] rounded-lg"
+                    : ""
+                }
+              >
+                Home
+              </NavLink>
+            </span>
+
+           
+            <span className=" items-center flex px-3">
+              <NavLink
+                to="/aboutUs"
+                className={({ isActive, isPending }) =>
+                  isPending
+                    ? ""
+                    : isActive
+                    ? "text-black p-2 bg-[#A1D1C9] rounded-lg"
+                    : ""
+                }
+              >
+                About
+              </NavLink>
+            </span>
+
+           
+            <span className=" items-center flex px-3">
+              <NavLink
+                to="/model"
+                className={({ isActive, isPending }) =>
+                  isPending
+                    ? ""
+                    : isActive
+                    ? "text-black p-2 bg-[#A1D1C9] rounded-lg"
+                    : ""
+                }
+              >
+                Business model
+              </NavLink>
+            </span>
+            
+            <span className=" items-center flex px-3">
+              <NavLink
+                to="/services"
+                className={({ isActive, isPending }) =>
+                  isPending
+                    ? ""
+                    : isActive
+                    ? "text-black p-2 bg-[#A1D1C9] rounded-lg"
+                    : ""
+                }
+              >
+                Services
+              </NavLink>
+            </span>
+            
+            <span className=" items-center flex px-3">
+              <NavLink
+                to="/publication"
+                className={({ isActive, isPending }) =>
+                  isPending
+                    ? ""
+                    : isActive
+                    ? "text-black p-2 bg-[#A1D1C9] rounded-lg"
+                    : ""
+                }
+              >
+                Publication
+              </NavLink>
+            </span>
           </ul>
         </div>
         <div className="navbar-end">
@@ -73,4 +202,4 @@ const Navbar = () => {
   );
 };
 
-export default Navbar;
+export default Navbar;
