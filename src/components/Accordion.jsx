@@ -44,7 +44,7 @@ const Accordion = () => {
         <div className="collapse collapse-arrow join-item border border-base-300">
           <input type="radio" name="my-accordion-4" />
           <div className="collapse-title text-xl font-medium">
-           4. Is my data safe with BizNest AI?
+           5. Is my data safe with BizNest AI?
           </div>
           <div className="collapse-content">
             <p>Yes, we are committed to safeguarding the privacy and security of your personal information. We implement appropriate measures to protect data against unauthorized access, alteration, disclosure, or destruction.</p>

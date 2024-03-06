@@ -1,6 +1,6 @@
-import React from "react";
 
-const Features = () => {
+
+const WhyUs = () => {
   return (
     <>
       <div className="text-center font-bold text-2xl md:text-5xl ">
@@ -97,4 +97,4 @@ const Features = () => {
   );
 };
 
-export default Features;
+export default WhyUs;
