@@ -1,7 +1,7 @@
 import { toast } from "react-toastify";
 import { MdOutlineElectricBolt } from "react-icons/md";
 import Modal from "./Modal";
-import { useState } from "react";
+
 const SingleCard2 = ({
   project,
   showModal,
@@ -9,18 +9,17 @@ const SingleCard2 = ({
   selectedModel,
   setSelectedModel,
 }) => {
-  const { title, description, gitHubUrl, outputUrl, id } = project;
+  const { title, description, gitHubUrl, outputUrl} = project;
 
   const handleModelSelection = () => {
     setSelectedModel(project);
     setShowModal(true);
   };
 
-  const handleModelClose = ()=>{
-    setShowModal(false)
-    setSelectedModel(null)
-
-  }
+  const handleModelClose = () => {
+    setShowModal(false);
+    setSelectedModel(null);
+  };
 
   const notify = () => toast("Repository not found coming soon!");
 

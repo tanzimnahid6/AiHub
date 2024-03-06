@@ -6,6 +6,9 @@ import Home from "../Pages/Home";
 import SingleModelPageInfo from "../Pages/SingleModelPageInfo";
 import Login from "../Pages/Login";
 import About from "../Pages/About";
+import Services from "../Pages/Services";
+import BusinessModel from "../Pages/BusinessModel";
+import Publication from "../Pages/Publication";
 
 const router = createBrowserRouter([
   {
@@ -21,7 +24,18 @@ const router = createBrowserRouter([
         path: "/aboutUs",
         element: <About></About>,
       },
-
+      {
+        path: "/services",
+        element: <Services></Services>,
+      },
+      {
+        path: "/model",
+        element: <BusinessModel></BusinessModel>,
+      },
+      {
+        path: "/publication",
+        element: <Publication></Publication>,
+      },
       {
         path: "/singleModelInfo/:modelId",
         element: <SingleModelPageInfo></SingleModelPageInfo>,

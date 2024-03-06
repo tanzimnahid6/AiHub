@@ -1,5 +1,3 @@
-
-
 import { Link } from "react-router-dom";
 import logoBlack from "../assets/logowbg.png";
 
@@ -47,21 +45,20 @@ const Navbar = () => {
         <div className="navbar-center hidden lg:flex">
           <ul className="menu menu-horizontal px-1">
             <li>
-              <a href="#home">Home </a>
+              <Link to="/">Home</Link>
             </li>
             <li>
-             <Link to='/aboutUs'>About</Link>
-            </li>
-
-            <li>
-              <a href="#model">Business model</a>
-            </li>
-            <li>
-              <a href="">Publication</a>
+              <Link to="/aboutUs">About</Link>
             </li>
 
             <li>
-              <a href="">Services </a>
+              <Link to="/model">Business model</Link>
+            </li>
+            <li>
+              <Link to="/services">Services </Link>
+            </li>
+            <li>
+              <Link to="/publication">Publication</Link>
             </li>
           </ul>
         </div>
