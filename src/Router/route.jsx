@@ -5,6 +5,7 @@ import ErrorPage from "../Pages/ErrorPage";
 import Home from "../Pages/Home";
 import SingleModelPageInfo from "../Pages/SingleModelPageInfo";
 import Login from "../Pages/Login";
+import About from "../Pages/About";
 
 const router = createBrowserRouter([
   {
@@ -16,6 +17,11 @@ const router = createBrowserRouter([
         path: "/",
         element: <Home></Home>,
       },
+      {
+        path: "/aboutUs",
+        element: <About></About>,
+      },
+
       {
         path: "/singleModelInfo/:modelId",
         element: <SingleModelPageInfo></SingleModelPageInfo>,

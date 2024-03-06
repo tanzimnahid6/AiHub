@@ -1,5 +1,6 @@
 
 
+import { Link } from "react-router-dom";
 import logoBlack from "../assets/logowbg.png";
 
 const Navbar = () => {
@@ -49,7 +50,7 @@ const Navbar = () => {
               <a href="#home">Home </a>
             </li>
             <li>
-              <a href="#about">About us </a>
+             <Link to='/aboutUs'>About</Link>
             </li>
 
             <li>
