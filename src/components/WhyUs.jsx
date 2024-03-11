@@ -1,11 +1,16 @@
-import { FaUserFriends } from "react-icons/fa";
+
+import { FaCircleChevronRight } from "react-icons/fa6";
+import { Parallax } from "react-parallax";
+
+
+
 const WhyUs = () => {
   return (
     <>
       <div className="text-center font-bold text-2xl md:text-5xl my-10 ">
         <h1>Why Us</h1>
       </div>
-      <section className=" bg-blueGray-200">
+      {/* <section className=" bg-blueGray-200">
         <div className="container mx-auto px-4">
      
           <div className="flex flex-wrap items-center  ">
@@ -84,7 +89,100 @@ const WhyUs = () => {
             </div>
           </div>
         </footer>
-      </section>
+      </section> */}
+      <Parallax
+        blur={1}
+        bgImage={"https://i.ibb.co/tbHZyP1/fitness-course-bg.webp"}
+        bgImageAlt="fitness-course-bg"
+        strength={200}
+        className="hero w-full rounded-sm bg-center "
+      >
+        <div className="py-10 px-[2%] sm:px-[5%] lg:px-[8%]">
+          <ul className="timeline timeline-snap-icon max-md:timeline-compact timeline-vertical">
+            <li>
+              <div className="timeline-middle">
+                <FaCircleChevronRight className="text-2xl text-sky-100  " />
+              </div>
+              <div className="timeline-start  hover:shadow-2xl duration-300 transition hover:scale-95 px-2 py-3 space-y-2 md:text-end mb-9">
+                <div className="text-2xl font-bold text-[#e5c466] text-left">
+                  BExpertise and Experience:{" "}
+                </div>
+                <p className="font-semibold max-w-sm text-sky-200 text-left">
+                  BizNest AI brings together a team of seasoned professionals
+                  with extensive experience in both business and AI
+                  technologies.
+                </p>
+              </div>
+              <hr />
+            </li>
+            <li>
+              <hr />
+              <div className="timeline-middle">
+                <FaCircleChevronRight className="text-2xl text-sky-100  " />
+              </div>
+              <div className="timeline-end hover:shadow-2xl duration-300 text-left transition hover:scale-95 mb-9 px-2 py-3 space-y-2">
+                <div className="text-2xl font-semibold text-[#e5c466]">
+                  Comprehensive Solutions:
+                </div>
+                <p className="font-semibold max-w-sm text-sky-200">
+                  From strategic consulting to implementation and ongoing
+                  support, we offer end-to-end solutions designed to address
+                  every aspect of your AI journey.
+                </p>
+              </div>
+              <hr />
+            </li>
+            <li>
+              <hr />
+              <div className="timeline-middle">
+                <FaCircleChevronRight className="text-2xl text-sky-100  " />
+              </div>
+              <div className="timeline-start hover:shadow-2xl text-left duration-300 transition hover:scale-95 mb-9 px-2 py-3 space-y-2 md:text-end">
+                <div className="text-2xl font-semibold text-[#e5c466]">
+                  Commitment to Excellence:
+                </div>
+                <p className="font-semibold max-w-sm text-sky-200">
+                  At BizNest AI, we're committed to excellence in everything we
+                  do. We strive to exceed our clients' expectations .
+                </p>
+              </div>
+              <hr />
+            </li>
+            <li>
+              <hr />
+              <div className="timeline-middle">
+                <FaCircleChevronRight className="text-2xl text-sky-100  " />
+              </div>
+              <div className="timeline-end hover:shadow-2xl text-left duration-300 transition hover:scale-95 mb-9 px-2 py-3 space-y-2">
+                <div className="text-2xl font-semibold text-[#e5c466]">
+                  Global Reach
+                </div>
+                <p className="font-semibold max-w-sm text-sky-200">
+                  With a focus on serving businesses globally, we understand the
+                  diverse needs and challenges faced by companies around the
+                  world. 
+                </p>
+              </div>
+              <hr />
+            </li>
+            <li>
+              <hr />
+              <div className="timeline-middle">
+                <FaCircleChevronRight className="text-2xl text-sky-100  " />
+              </div>
+              <div className="timeline-start hover:shadow-2xl duration-300 transition hover:scale-95 py-3 px-3 md:text-end">
+                <div className="text-2xl font-semibold text-[#e5c466]">
+                  Innovative Approach:
+                </div>
+                <p className="font-semibold text-sky-200">
+                  We pride ourselves on our innovative approach to AI-driven
+                  business solutions.
+                </p>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </Parallax>
     </>
   );
 };
