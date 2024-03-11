@@ -9,6 +9,7 @@ import About from "../Pages/About";
 import Services from "../Pages/Services";
 import BusinessModel from "../Pages/BusinessModel";
 import Publication from "../Pages/Publication";
+import SignIn from "../Pages/SignIn";
 
 const router = createBrowserRouter([
   {
@@ -43,6 +44,10 @@ const router = createBrowserRouter([
       {
         path: "/login",
         element: <Login></Login>,
+      },
+      {
+        path: "/signIn",
+        element: <SignIn></SignIn>,
       },
     ],
   },

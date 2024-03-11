@@ -1,5 +1,6 @@
-import { NavLink } from "react-router-dom";
-import logoBlack from "../assets/logowbg.png";
+import { Link, NavLink } from "react-router-dom";
+
+import Logo5 from "../assets/logo5.png";
 
 const Navbar = () => {
   return (
@@ -27,92 +28,88 @@ const Navbar = () => {
               tabIndex={0}
               className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52"
             >
-               <span className=" items-center flex py-2">
-              <NavLink
-                to="/"
-                className={({ isActive, isPending }) =>
-                  isPending
-                    ? ""
-                    : isActive
-                    ? "text-black p-2 bg-[#A1D1C9] rounded-lg"
-                    : ""
-                }
-              >
-                Home
-              </NavLink>
-            </span>
+              <span className=" items-center flex py-2">
+                <NavLink
+                  to="/"
+                  className={({ isActive, isPending }) =>
+                    isPending
+                      ? ""
+                      : isActive
+                      ? "text-black p-2 bg-[#A1D1C9] rounded-lg"
+                      : ""
+                  }
+                >
+                  Home
+                </NavLink>
+              </span>
 
-           
-            <span className=" items-center flex py-2">
-              <NavLink
-                to="/aboutUs"
-                className={({ isActive, isPending }) =>
-                  isPending
-                    ? ""
-                    : isActive
-                    ? "text-black p-2 bg-[#A1D1C9] rounded-lg"
-                    : ""
-                }
-              >
-                About
-              </NavLink>
-            </span>
+              <span className=" items-center flex py-2">
+                <NavLink
+                  to="/aboutUs"
+                  className={({ isActive, isPending }) =>
+                    isPending
+                      ? ""
+                      : isActive
+                      ? "text-black p-2 bg-[#A1D1C9] rounded-lg"
+                      : ""
+                  }
+                >
+                  About
+                </NavLink>
+              </span>
 
-           
-            <span className=" items-center flex py-2">
-              <NavLink
-                to="/model"
-                className={({ isActive, isPending }) =>
-                  isPending
-                    ? ""
-                    : isActive
-                    ? "text-black p-2 bg-[#A1D1C9] rounded-lg"
-                    : ""
-                }
-              >
-                Business model
-              </NavLink>
-            </span>
-            
-            <span className=" items-center flex py-2">
-              <NavLink
-                to="/services"
-                className={({ isActive, isPending }) =>
-                  isPending
-                    ? ""
-                    : isActive
-                    ? "text-black p-2 bg-[#A1D1C9] rounded-lg"
-                    : ""
-                }
-              >
-                Services
-              </NavLink>
-            </span>
-            
-            <span className=" items-center flex py-2">
-              <NavLink
-                to="/publication"
-                className={({ isActive, isPending }) =>
-                  isPending
-                    ? ""
-                    : isActive
-                    ? "text-black p-2 bg-[#A1D1C9] rounded-lg"
-                    : ""
-                }
-              >
-                Publication
-              </NavLink>
-            </span>
+              <span className=" items-center flex py-2">
+                <NavLink
+                  to="/model"
+                  className={({ isActive, isPending }) =>
+                    isPending
+                      ? ""
+                      : isActive
+                      ? "text-black p-2 bg-[#A1D1C9] rounded-lg"
+                      : ""
+                  }
+                >
+                  Business model
+                </NavLink>
+              </span>
+
+              <span className=" items-center flex py-2">
+                <NavLink
+                  to="/services"
+                  className={({ isActive, isPending }) =>
+                    isPending
+                      ? ""
+                      : isActive
+                      ? "text-black p-2 bg-[#A1D1C9] rounded-lg"
+                      : ""
+                  }
+                >
+                  Services
+                </NavLink>
+              </span>
+
+              <span className=" items-center flex py-2">
+                <NavLink
+                  to="/publication"
+                  className={({ isActive, isPending }) =>
+                    isPending
+                      ? ""
+                      : isActive
+                      ? "text-black p-2 bg-[#A1D1C9] rounded-lg"
+                      : ""
+                  }
+                >
+                  Publication
+                </NavLink>
+              </span>
             </ul>
           </div>
           <div className="pl-4 ">
-            <img src={logoBlack} className="w-16 h-auto " alt="Logo" />
+            <img src={Logo5} className="w-24 h-auto " alt="Logo" />
           </div>
         </div>
         <div className="navbar-center hidden lg:flex">
           <ul className="menu menu-horizontal px-1">
-            
-
             <span className=" items-center flex px-3">
               <NavLink
                 to="/"
@@ -128,7 +125,6 @@ const Navbar = () => {
               </NavLink>
             </span>
 
-           
             <span className=" items-center flex px-3">
               <NavLink
                 to="/aboutUs"
@@ -144,7 +140,6 @@ const Navbar = () => {
               </NavLink>
             </span>
 
-           
             <span className=" items-center flex px-3">
               <NavLink
                 to="/model"
@@ -159,7 +154,7 @@ const Navbar = () => {
                 Business model
               </NavLink>
             </span>
-            
+
             <span className=" items-center flex px-3">
               <NavLink
                 to="/services"
@@ -174,7 +169,7 @@ const Navbar = () => {
                 Services
               </NavLink>
             </span>
-            
+
             <span className=" items-center flex px-3">
               <NavLink
                 to="/publication"
@@ -192,9 +187,11 @@ const Navbar = () => {
           </ul>
         </div>
         <div className="navbar-end">
-          <button className="align-middle select-none font-sans font-bold text-center uppercase transition-all disabled:opacity-50 disabled:shadow-none disabled:pointer-events-none text-xs py-3 px-6 rounded-lg bg-[#236A68] text-white shadow-md shadow-gray-900/10 hover:shadow-lg hover:shadow-gray-900/20 focus:opacity-[0.85] focus:shadow-none active:opacity-[0.85] active:shadow-none m-4">
-            Sign In
-          </button>
+          <Link to="/login">
+            <button className="align-middle select-none font-sans font-bold text-center uppercase transition-all disabled:opacity-50 disabled:shadow-none disabled:pointer-events-none text-xs py-3 px-6 rounded-lg bg-[#236A68] text-white shadow-md shadow-gray-900/10 hover:shadow-lg hover:shadow-gray-900/20 focus:opacity-[0.85] focus:shadow-none active:opacity-[0.85] active:shadow-none m-4">
+              Log in
+            </button>
+          </Link>
         </div>
       </div>
       <hr />
@@ -202,4 +199,4 @@ const Navbar = () => {
   );
 };
 
-export default Navbar;
+export default Navbar;
