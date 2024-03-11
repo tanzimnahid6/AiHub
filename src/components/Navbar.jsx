@@ -5,7 +5,7 @@ import Logo5 from "../assets/logo5.png";
 const Navbar = () => {
   return (
     <div>
-      <div className="navbar font-bold py-0 float fixed z-30 bg-[#B0E4D9]  ">
+      <div className="navbar font-bold py-0 float fixed z-30 bg-[#0D9488]  ">
         <div className="navbar-start">
           <div className="dropdown">
             <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">

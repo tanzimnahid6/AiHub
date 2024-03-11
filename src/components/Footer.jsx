@@ -3,7 +3,7 @@ import FooterLogo from "../assets/logo-white.svg";
 const Footer = () => {
   return (
     <>
-      <footer className="footer items-center p-4 bg-[#B0E4D9] text-black  font-bold">
+      <footer className="footer items-center p-4 bg-[#0D9488] text-white tracking-wider  font-semibold">
         <aside className="items-center grid-flow-col ">
           <img src={FooterLogo} className="w-12 rounded-md" alt="Logo" />
           <p>Copyright © 2024 - all right reserved by biznestai.com</p>
