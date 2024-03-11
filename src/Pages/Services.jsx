@@ -2,10 +2,18 @@ import Heading from "../components/Heading";
 import { getServices } from "../data/services";
 
 const Services = () => {
+  //UNUSED=-=-=-=-=-=-========================================================================
+
+  //UNUSED=-=-=-=-=-=-========================================================================
+  //UNUSED=-=-=-=-=-=-========================================================================
+  //UNUSED=-=-=-=-=-=-========================================================================
+  //UNUSED=-=-=-=-=-=-========================================================================
+  //UNUSED=-=-=-=-=-=-========================================================================
+
   const services = getServices();
   return (
     <div className="mt-24 mb-14 ">
-      <div >
+      <div>
         <Heading>Services</Heading>
         <p className="md:w-1/2 mx-auto text-center text-xl font-bold opacity-75">
           At BizNest AI, we offer a comprehensive range of services tailored to

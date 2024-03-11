@@ -6,10 +6,12 @@ import Home from "../Pages/Home";
 import SingleModelPageInfo from "../Pages/SingleModelPageInfo";
 import Login from "../Pages/Login";
 import About from "../Pages/About";
-import Services from "../Pages/Services";
+
 import BusinessModel from "../Pages/BusinessModel";
 import Publication from "../Pages/Publication";
 import SignIn from "../Pages/SignIn";
+
+import ContactUsPage from "../Pages/ContactUs";
 
 const router = createBrowserRouter([
   {
@@ -26,8 +28,8 @@ const router = createBrowserRouter([
         element: <About></About>,
       },
       {
-        path: "/services",
-        element: <Services></Services>,
+        path: "/contact",
+        element: <ContactUsPage></ContactUsPage>
       },
       {
         path: "/model",

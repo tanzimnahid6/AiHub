@@ -5,7 +5,7 @@ import Logo5 from "../assets/logo5.png";
 const Navbar = () => {
   return (
     <div>
-      <div className="navbar font-bold py-0 float fixed z-30 bg-[#0D9488]  ">
+      <div className="navbar font-bold py-0 fixed z-30 bg-[#0D9488]  ">
         <div className="navbar-start">
           <div className="dropdown">
             <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
@@ -72,22 +72,6 @@ const Navbar = () => {
                   Business model
                 </NavLink>
               </span>
-
-              <span className=" items-center flex py-2">
-                <NavLink
-                  to="/services"
-                  className={({ isActive, isPending }) =>
-                    isPending
-                      ? ""
-                      : isActive
-                      ? "text-black p-2 bg-[#A1D1C9] rounded-lg"
-                      : ""
-                  }
-                >
-                  Services
-                </NavLink>
-              </span>
-
               <span className=" items-center flex py-2">
                 <NavLink
                   to="/publication"
@@ -102,12 +86,27 @@ const Navbar = () => {
                   Publication
                 </NavLink>
               </span>
+              <span className=" items-center flex py-2">
+                <NavLink
+                  to="/contact"
+                  className={({ isActive, isPending }) =>
+                    isPending
+                      ? ""
+                      : isActive
+                      ? "text-black p-2 bg-[#A1D1C9] rounded-lg"
+                      : ""
+                  }
+                >
+                  Contact US
+                </NavLink>
+              </span>
             </ul>
           </div>
           <div className="pl-4 ">
             <img src={Logo5} className="w-24 h-auto " alt="Logo" />
           </div>
         </div>
+
         <div className="navbar-center hidden lg:flex">
           <ul className="menu menu-horizontal px-1">
             <span className=" items-center flex px-3">
@@ -157,21 +156,6 @@ const Navbar = () => {
 
             <span className=" items-center flex px-3">
               <NavLink
-                to="/services"
-                className={({ isActive, isPending }) =>
-                  isPending
-                    ? ""
-                    : isActive
-                    ? "text-black p-2 bg-[#A1D1C9] rounded-lg"
-                    : ""
-                }
-              >
-                Services
-              </NavLink>
-            </span>
-
-            <span className=" items-center flex px-3">
-              <NavLink
                 to="/publication"
                 className={({ isActive, isPending }) =>
                   isPending
@@ -184,6 +168,21 @@ const Navbar = () => {
                 Publication
               </NavLink>
             </span>
+
+            <span className=" items-center flex py-2">
+              <NavLink
+                to="/contact"
+                className={({ isActive, isPending }) =>
+                  isPending
+                    ? ""
+                    : isActive
+                    ? "text-black p-2 bg-[#A1D1C9] rounded-lg"
+                    : ""
+                }
+              >
+                Contact Us
+              </NavLink>
+            </span>
           </ul>
         </div>
         <div className="navbar-end">
@@ -194,6 +193,7 @@ const Navbar = () => {
           </Link>
         </div>
       </div>
+
       <hr />
     </div>
   );

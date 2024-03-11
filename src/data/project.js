@@ -1,7 +1,7 @@
 const projects = [
   {
     id: 1,
-    title: "Churn-Prediction-And-Prevention",
+    title: "Churn Prediction And Prevention",
     description:
       "This repository contains Python code for predictive churn analysis in a telecom industry setting. The purpose of this project is to develop a predictive model to identify potential churn customers and analyze factors contributing to customer attrition. The analysis includes exploratory data visualization, statistical summaries, and the implementation of a machine learning model using the RandomForestClassifier.",
     gitHubUrl:
@@ -11,7 +11,7 @@ const projects = [
   },
   {
     id: 2,
-    title: "Costumer-Segmentation-using-ML",
+    title: "Costumer Segmentation",
     description:
       "Develop an AI-driven pricing optimization system that adjusts prices in real-time based on factors such as demand, competitor pricing, and customer behavior to maximize revenue and profit.",
     gitHubUrl:
@@ -31,7 +31,7 @@ const projects = [
   },
   {
     id: 4,
-    title: "Predictive-Maintenance",
+    title: "Predictive Maintenance",
     description:
       "In today's industrial landscape, unplanned downtime due to machinery failures can result in significant financial losses and operational disruptions. To mitigate these challenges, predictive maintenance techniques leverage advanced analytics and machine learning algorithms to predict potential failures before they occur. This GitHub project offers a comprehensive solution for predictive maintenance tailored for industrial machinery.",
     gitHubUrl:
@@ -41,7 +41,7 @@ const projects = [
   },
   {
     id: 5,
-    title: "Supply-Chain-Optimization",
+    title: "Supply Chain Optimization",
     description:
       "This GitHub repository presents a comprehensive analysis of the supply chain for makeup products, focusing on optimizing efficiency, reducing costs, and enhancing customer satisfaction. The analysis utilizes a rich dataset collected from a Fashion and Beauty startup, encompassing various aspects of the supply chain process.",
     gitHubUrl:
@@ -72,7 +72,7 @@ const projects = [
   },
   {
     id: 8,
-    title: "Healthcare-Predictive-Modeling",
+    title: "Healthcare Predictive Modeling",
     description:
       "Create an AI system to predict customer churn by analyzing historical data and identifying factors leading to customer attrition. Implement proactive measures to prevent churn.",
     gitHubUrl:
@@ -81,7 +81,7 @@ const projects = [
   },
   {
     id: 9,
-    title: "Electrical-grid-stability",
+    title: "Electrical grid stability",
     description:
       "Utilize natural language processing (NLP) techniques to analyze customer feedback from various sources (social media, reviews, etc.) and provide insights into brand perception and sentiment.",
     gitHubUrl:
@@ -91,7 +91,7 @@ const projects = [
   },
   {
     id: 10,
-    title: "Dynamic-Price-Optimization",
+    title: "Dynamic Price Optimization",
     description:
       "This project is dedicated to the implementation of dynamic price optimization strategies using advanced data analytics and machine learning techniques. The dataset comprises 1303 entries, capturing essential features related to laptops, including specifications and pricing information.",
     gitHubUrl:

@@ -9,7 +9,7 @@ const SingleCard2 = ({
   selectedModel,
   setSelectedModel,
 }) => {
-  const { title, description, gitHubUrl, outputUrl} = project;
+  const { title, description, gitHubUrl, outputUrl } = project;
 
   const handleModelSelection = () => {
     setSelectedModel(project);
@@ -32,7 +32,7 @@ const SingleCard2 = ({
           handleModelClose={handleModelClose}
         />
       )}
-      <div className="relative flex flex-col text-gray-700 bg-white shadow-md bg-clip-border rounded-xl w-full h-80 hover:scale-105 transition-transform hover:bg-stone-200 ">
+      <div className="relative flex flex-col text-gray-700 gap-4 bg-white shadow-md bg-clip-border rounded-xl w-full  hover:scale-105 transition-transform hover:bg-stone-200 p-2">
         <div className="p-2  h-2/3 ">
           <h5 className="block mb-2 font-sans text-xl antialiased font-semibold leading-snug tracking-normal text-blue-gray-900">
             <MdOutlineElectricBolt color="#00BCD4" className="inline-block " />
@@ -48,7 +48,7 @@ const SingleCard2 = ({
             <a href={gitHubUrl}>
               <button
                 type="button"
-                className="py-3 px-4 inline-flex items-center gap-x-2 text-sm font-semibold rounded-lg border border-transparent bg-teal-500 text-white hover:bg-teal-600 disabled:opacity-50 disabled:pointer-events-none dark:focus:outline-none dark:focus:ring-1 dark:focus:ring-gray-600"
+                className="py-3 px-4 inline-flex items-center gap-x-2 text-sm font-semibold rounded-lg border border-transparent bg-teal-500 text-white hover:bg-[#0D9488] disabled:opacity-50 disabled:pointer-events-none dark:focus:outline-none dark:focus:ring-1 dark:focus:ring-gray-600"
               >
                 Model
               </button>
@@ -82,7 +82,7 @@ const SingleCard2 = ({
             <button
               onClick={handleModelSelection}
               type="button"
-              className="py-3 px-4  items-center gap-x-2 text-sm font-semibold rounded-lg border border-teal-500 text-teal-500 hover:border-teal-400 hover:text-white   hover:bg-teal-400 disabled:opacity-50 disabled:pointer-events-none dark:border-teal-500 dark:text-teal-500 dark:hover:text-teal-400 dark:hover:border-teal-400 dark:focus:outline-none dark:focus:ring-1 dark:focus:ring-gray-600 w-full"
+              className="py-3 px-4  items-center gap-x-2 text-sm font-semibold rounded-lg border border-[#0D9488] text-[#0D9488] hover:border-[#0D9488] hover:text-white   hover:bg-[#0D9488] disabled:opacity-50 disabled:pointer-events-none dark:border-teal-500 dark:text-teal-500 dark:hover:text-teal-400 dark:hover:border-teal-400 dark:focus:outline-none dark:focus:ring-1 dark:focus:ring-gray-600 w-full"
             >
               Business impact
             </button>
