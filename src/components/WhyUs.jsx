@@ -12,10 +12,8 @@ const WhyUs = () => {
       </div>
 
       <Parallax
-        blur={5}
-        bgImage={
-          "https://i.ibb.co/pJbTq0W/ai-generated-3d-artificial-intelligence-or-ai-in-image-humanoid-head-robotic-face-analyzing-flow-big.jpg"
-        }
+        blur={3}
+        bgImage={"https://i.ibb.co/chSd0mQ/risks-artificial-intelligence-0.jpg"}
         bgImageAlt="fitness-course-bg"
         strength={200}
         className="hero w-full rounded-sm bg-center "
