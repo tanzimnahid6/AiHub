@@ -6,7 +6,7 @@ const AboutUsPara1 = () => {
       <img
         src={img1}
         alt="Image 2"
-        className="w-[410px] md:w-[300px] rounded-md h-72 object-cover border-t-8 border-l-8 border-[#236A68] transition delay-150 duration-300 ease-in-out hover:scale-90 "
+        className="w-[410px] md:w-[300px] rounded-md  object-cover border-t-8 border-l-8 border-[#236A68] transition delay-150 duration-300 ease-in-out hover:scale-90 "
       />
       <div>
         <h2 className="text-xl md:text-2xl lg:text-4xl font-bold  text-[#236A68]">

@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 
 const Banner = () => {
   return (
-    <div className="md:flex justify-around gap-2 p-4 mt-16 my-4" id="home">
+    <div className="lg:flex justify-around gap-2 p-4 mt-16 my-4" id="home">
       <motion.div
         initial={{ opacity: 0, scale: 0.5 }}
         animate={{ opacity: 1, scale: 1 }}
@@ -20,14 +20,14 @@ const Banner = () => {
             restDelta: 0.001,
           },
         }}
-        className="md:w-1/2 md:order-2 "
+        className="lg:w-1/2 md:order-2 "
       >
         <Lottie animationData={animation} className="h-96"></Lottie>
       </motion.div>
       <motion.div
         animate={{ x: -20 }}
         transition={{ ease: "easeOut", duration: 2 }}
-        className="md:w-1/2 w-full md:order-1"
+        className="lg:w-1/2 w-full md:order-1"
       >
         <p className="text-3xl  md:text-5xl font-bold   bg-gradient-to-r from-[#1e6162] to-[#5cc4a8] bg-clip-text text-transparent leading-1">
           Elevate Your Experience: AI Magic in Every Click
