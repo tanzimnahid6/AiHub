@@ -28,7 +28,7 @@ const WhyUs = () => {
                 <div className="text-2xl font-bold  text-black ">
                   Expertise and Experience:{" "}
                 </div>
-                <p className="font-semibold   text-[#A1D1C9] ">
+                <p className="font-semibold   text-black ">
                   BizNest AI brings together a team of seasoned professionals
                   with extensive experience in both business and AI
                   technologies.
@@ -45,7 +45,7 @@ const WhyUs = () => {
                 <div className="text-2xl font-semibold  text-black">
                   Comprehensive Solutions:
                 </div>
-                <p className="font-semibold   text-[#A1D1C9]">
+                <p className="font-semibold   text-black">
                   From strategic consulting to implementation and ongoing
                   support, we offer end-to-end solutions designed to address
                   every aspect of your AI journey.
@@ -62,7 +62,7 @@ const WhyUs = () => {
                 <div className="text-2xl font-semibold  text-black">
                   Commitment to Excellence:
                 </div>
-                <p className="font-semibold   text-[#A1D1C9]">
+                <p className="font-semibold   text-black">
                   At BizNest AI, we're committed to excellence in everything we
                   do. We strive to exceed our clients' expectations .
                 </p>
@@ -78,7 +78,7 @@ const WhyUs = () => {
                 <div className="text-2xl font-semibold  text-black">
                   Global Reach
                 </div>
-                <p className="font-semibold   text-[#A1D1C9]">
+                <p className="font-semibold   text-black">
                   With a focus on serving businesses globally, we understand the
                   diverse needs and challenges faced by companies around the
                   world.
@@ -89,13 +89,13 @@ const WhyUs = () => {
             <li className="px-10 md:px-0">
               <hr />
               <div className="timeline-middle">
-                <FaCircleChevronRight className="text-2xl  text-[#A1D1C9]  " />
+                <FaCircleChevronRight className="text-2xl  text-black " />
               </div>
               <div className="timeline-start  hover:shadow-2xl duration-300 transition hover:scale-95 px-2 space-y-2  md:text-end  md:w-10/12">
                 <div className="text-2xl font-semibold  text-black">
                   Innovative Approach:
                 </div>
-                <p className="font-semibold   text-[#A1D1C9]">
+                <p className="font-semibold   text-black">
                   We pride ourselves on our innovative approach to AI-driven
                   business solutions.
                 </p>
