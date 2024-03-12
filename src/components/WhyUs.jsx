@@ -13,7 +13,7 @@ const WhyUs = () => {
 
       <Parallax
         blur={3}
-        bgImage={"https://i.ibb.co/Dr3ZM91/230619-jmv-img0.jpg"}
+        bgImage={""}
         bgImageAlt="fitness-course-bg"
         strength={200}
         className="hero w-full rounded-sm bg-center "
@@ -22,10 +22,10 @@ const WhyUs = () => {
           <ul className="timeline timeline-snap-icon max-md:timeline-compact timeline-vertical">
             <li className="px-10 md:px-0">
               <div className="timeline-middle">
-                <FaCircleChevronRight className="text-2xl  text-[#A1D1C9]  " />
+                <FaCircleChevronRight className="text-2xl   " />
               </div>
               <div className="timeline-start  hover:shadow-2xl duration-300 transition hover:scale-95 px-2 space-y-2  md:text-end md:w-10/12">
-                <div className="text-2xl font-bold  text-white ">
+                <div className="text-2xl font-bold  text-black ">
                   Expertise and Experience:{" "}
                 </div>
                 <p className="font-semibold   text-[#A1D1C9] ">
@@ -39,10 +39,10 @@ const WhyUs = () => {
             <li className="px-10 md:px-0">
               <hr />
               <div className="timeline-middle">
-                <FaCircleChevronRight className="text-2xl  text-[#A1D1C9]  " />
+                <FaCircleChevronRight className="text-2xl  " />
               </div>
               <div className="timeline-end hover:shadow-2xl duration-300 text-left transition hover:scale-95  px-2 space-y-2 md:w-10/12">
-                <div className="text-2xl font-semibold  text-white">
+                <div className="text-2xl font-semibold  text-black">
                   Comprehensive Solutions:
                 </div>
                 <p className="font-semibold   text-[#A1D1C9]">
@@ -56,10 +56,10 @@ const WhyUs = () => {
             <li className="px-10 md:px-0">
               <hr />
               <div className="timeline-middle ">
-                <FaCircleChevronRight className="text-2xl  text-[#A1D1C9]  " />
+                <FaCircleChevronRight className="text-2xl    " />
               </div>
               <div className="timeline-start hover:shadow-2xl md:text-end duration-300 transition hover:scale-95  px-2  space-y-2 md:w-10/12">
-                <div className="text-2xl font-semibold  text-white">
+                <div className="text-2xl font-semibold  text-black">
                   Commitment to Excellence:
                 </div>
                 <p className="font-semibold   text-[#A1D1C9]">
@@ -72,10 +72,10 @@ const WhyUs = () => {
             <li className="px-10 md:px-0">
               <hr />
               <div className="timeline-middle">
-                <FaCircleChevronRight className="text-2xl  text-[#A1D1C9]  " />
+                <FaCircleChevronRight className="text-2xl text-black " />
               </div>
               <div className="timeline-end hover:shadow-2xl text-left duration-300 transition hover:scale-95  px-2  space-y-2 md:w-3/4">
-                <div className="text-2xl font-semibold  text-white">
+                <div className="text-2xl font-semibold  text-black">
                   Global Reach
                 </div>
                 <p className="font-semibold   text-[#A1D1C9]">
@@ -92,7 +92,7 @@ const WhyUs = () => {
                 <FaCircleChevronRight className="text-2xl  text-[#A1D1C9]  " />
               </div>
               <div className="timeline-start  hover:shadow-2xl duration-300 transition hover:scale-95 px-2 space-y-2  md:text-end  md:w-10/12">
-                <div className="text-2xl font-semibold  text-white">
+                <div className="text-2xl font-semibold  text-black">
                   Innovative Approach:
                 </div>
                 <p className="font-semibold   text-[#A1D1C9]">
