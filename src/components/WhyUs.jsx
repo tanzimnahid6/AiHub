@@ -13,7 +13,7 @@ const WhyUs = () => {
 
       <Parallax
         blur={3}
-        bgImage={"https://i.ibb.co/chSd0mQ/risks-artificial-intelligence-0.jpg"}
+        bgImage={"https://i.ibb.co/Dr3ZM91/230619-jmv-img0.jpg"}
         bgImageAlt="fitness-course-bg"
         strength={200}
         className="hero w-full rounded-sm bg-center "
