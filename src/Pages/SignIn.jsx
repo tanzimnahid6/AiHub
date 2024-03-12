@@ -103,10 +103,10 @@ const SignIn = () => {
 
           <div className="flex-1 bg-indigo-100 text-center h-3/4 hidden md:flex rounded-lg p-4 ">
             <div
-              className="m-12 xl:m-16 w-full  bg-contain bg-center bg-no-repeat"
+              className=" xl:m-16 w-full  bg-contain bg-center bg-no-repeat "
               style={{
                 backgroundImage:
-                  'url("https://storage.googleapis.com/devitary-image-host.appspot.com/15848031292911696601-undraw_designer_life_w96d.svg")',
+                  'url("https://i.ibb.co/02mVRBz/sign-page-abstract-concept-vector-illustration-107173-25670.jpg")',
               }}
             ></div>
           </div>
