@@ -109,6 +109,36 @@ const projects = [
     outputUrl:
       "https://github.com/proAIrokibul/Predictive-Sale-Forcasting/tree/main/Predictive%20Sale%20Forcasting/Output",
   },
+  {
+    id: 12,
+    title: "Crop Yield Prediction",
+    description:
+      "Predicting crop yield is crucial for efficient agricultural planning and resource allocation. This project leverages machine learning techniques to forecast crop yields based on various factors such as crop type, seasonal patterns, geographical location, and agricultural inputs. The predictive models, including Logistic Regression, Random Forest, and Decision Tree, provide valuable insights for farmers and stakeholders in optimizing crop production.",
+    gitHubUrl:
+      "https://github.com/proAIrokibul/Crop-Yield-Project/blob/main/Model/crop_yield.ipynb",
+    outputUrl:
+      "https://github.com/proAIrokibul/Crop-Yield-Project/tree/main/Output",
+  },
+  {
+    id: 13,
+    title: "Loan Approval Predictive Modeling",
+    description:
+      "Welcome to the Loan Approval Predictive Modeling project repository! This initiative is designed to revolutionize the loan approval process, providing financial institutions with an intelligent and data-driven solution for more efficient, accurate, and fair decision-making.",
+    gitHubUrl:
+      "https://github.com/proAIrokibul/Loan-Approvel-Project/blob/main/Model/main.ipynb",
+    outputUrl:
+      "https://github.com/proAIrokibul/Loan-Approvel-Project/tree/main/Output",
+  },
+  {
+    id: 14,
+    title: "Stock Price Analysis and Prediction",
+    description:
+      "This GitHub repository is a powerful tool for unlocking business insights and making informed decisions in the dynamic world of stock trading. By combining thorough data analysis, preprocessing techniques, and machine learning models, this project empowers users to understand and predict stock prices, providing a competitive edge in the financial market.",
+    gitHubUrl:
+      "https://github.com/proAIrokibul/Stock-Price-Analysis-And-Prediction/blob/main/Model/main.ipynb",
+    outputUrl:
+      "https://github.com/proAIrokibul/Stock-Price-Analysis-And-Prediction/tree/main/Output",
+  },
 ];
 
 export const getProjects = () => {
