@@ -1,5 +1,7 @@
 
 import { FaCircleChevronRight } from "react-icons/fa6";
+import { FaCircleChevronLeft } from "react-icons/fa6";
+
 import { Parallax } from "react-parallax";
 
 
@@ -22,7 +24,7 @@ const WhyUs = () => {
           <ul className="timeline timeline-snap-icon max-md:timeline-compact timeline-vertical">
             <li>
               <div className="timeline-middle">
-                <FaCircleChevronRight className="text-2xl   " />
+                <FaCircleChevronLeft className="text-2xl   " />
               </div>
               <div className="timeline-start  hover:shadow-2xl duration-300 transition hover:scale-95 px-2 space-y-2  md:text-end md:w-10/12">
                 <div className="md:text-2xl text-xl font-semibold  text-black ">
@@ -56,7 +58,7 @@ const WhyUs = () => {
             <li>
               <hr />
               <div className="timeline-middle ">
-                <FaCircleChevronRight className="text-2xl    " />
+                <FaCircleChevronLeft className="text-2xl    " />
               </div>
               <div className="timeline-start hover:shadow-2xl md:text-end duration-300 transition hover:scale-95  px-2  space-y-2 md:w-10/12">
                 <div className="md:text-2xl text-xl font-semibold  text-black">
@@ -89,7 +91,7 @@ const WhyUs = () => {
             <li>
               <hr />
               <div className="timeline-middle">
-                <FaCircleChevronRight className="text-2xl  text-black " />
+                <FaCircleChevronLeft className="text-2xl  text-black " />
               </div>
               <div className="timeline-start  hover:shadow-2xl duration-300 transition hover:scale-95 px-2 space-y-2  md:text-end  md:w-10/12 w-full">
                 <div className="md:text-2xl text-xl font-semibold  text-black">
