@@ -28,7 +28,7 @@ const WhyUs = () => {
               </div>
               <div className="timeline-start  hover:shadow-2xl duration-300 transition hover:scale-95 px-2 space-y-2  md:text-end md:w-10/12">
                 <div className="md:text-2xl text-xl font-semibold  text-black ">
-                  Expertise and Experience:{" "}
+                  Expertise and Experience{" "}
                 </div>
                 <p className="font-semibold md:text-normal text-sm   text-black ">
                   BizNest AI brings together a team of seasoned professionals
@@ -36,16 +36,16 @@ const WhyUs = () => {
                   technologies.
                 </p>
               </div>
-              <hr />
+              <hr className="bg-[#0D9488]" />
             </li>
             <li>
-              <hr />
+              <hr className="bg-[#0D9488]" />
               <div className="timeline-middle">
                 <FaCircleChevronRight className="text-2xl  " />
               </div>
               <div className="timeline-end hover:shadow-2xl duration-300 text-left transition hover:scale-95  px-2 space-y-2 md:w-10/12">
                 <div className="md:text-2xl text-xl font-semibold  text-black">
-                  Comprehensive Solutions:
+                  Comprehensive Solutions
                 </div>
                 <p className="font-semibold md:text-normal text-sm   text-black">
                   From strategic consulting to implementation and ongoing
@@ -53,26 +53,26 @@ const WhyUs = () => {
                   every aspect of your AI journey.
                 </p>
               </div>
-              <hr />
+              <hr className="bg-[#0D9488]" />
             </li>
             <li>
-              <hr />
+              <hr className="bg-[#0D9488]" />
               <div className="timeline-middle ">
                 <FaCircleChevronLeft className="text-2xl    " />
               </div>
               <div className="timeline-start hover:shadow-2xl md:text-end duration-300 transition hover:scale-95  px-2  space-y-2 md:w-10/12">
                 <div className="md:text-2xl text-xl font-semibold  text-black">
-                  Commitment to Excellence:
+                  Commitment to Excellence
                 </div>
                 <p className="font-semibold md:text-normal text-sm   text-black">
                   At BizNest AI, we're committed to excellence in everything we
                   do. We strive to exceed our clients' expectations .
                 </p>
               </div>
-              <hr />
+              <hr className="bg-[#0D9488]" />
             </li>
             <li>
-              <hr />
+              <hr className="bg-[#0D9488]" />
               <div className="timeline-middle">
                 <FaCircleChevronRight className="text-2xl text-black " />
               </div>
@@ -86,16 +86,16 @@ const WhyUs = () => {
                   world.
                 </p>
               </div>
-              <hr />
+              <hr className="bg-[#0D9488]" />
             </li>
             <li>
-              <hr />
+              <hr className="bg-[#0D9488]" />
               <div className="timeline-middle">
                 <FaCircleChevronLeft className="text-2xl  text-black " />
               </div>
               <div className="timeline-start  hover:shadow-2xl duration-300 transition hover:scale-95 px-2 space-y-2  md:text-end  md:w-10/12 w-full">
                 <div className="md:text-2xl text-xl font-semibold  text-black">
-                  Innovative Approach:
+                  Innovative Approach
                 </div>
                 <p className="font-semibold md:text-normal text-sm   text-black">
                   We pride ourselves on our innovative approach to AI-driven
