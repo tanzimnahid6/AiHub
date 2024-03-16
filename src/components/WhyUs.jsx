@@ -1,5 +1,7 @@
 
 import { FaCircleChevronRight } from "react-icons/fa6";
+import { FaCircleChevronLeft } from "react-icons/fa6";
+
 import { Parallax } from "react-parallax";
 
 
@@ -22,11 +24,11 @@ const WhyUs = () => {
           <ul className="timeline timeline-snap-icon max-md:timeline-compact timeline-vertical cursor-pointer">
             <li>
               <div className="timeline-middle">
-                <FaCircleChevronRight className="text-2xl   " />
+                <FaCircleChevronLeft className="text-2xl   " />
               </div>
               <div className="timeline-start  hover:shadow-2xl duration-300 transition hover:scale-95 px-2 space-y-2  md:text-end md:w-10/12">
-                <div className=" text-xl font-semibold  text-gray-700 ">
-                  Expertise and Experience
+                <div className="md:text-2xl text-xl font-semibold  text-black ">
+                  Expertise and Experience:{" "}
                 </div>
                 <p className=" md:text-normal text-sm   text-gray-600 ">
                   BizNest AI brings together a team of seasoned professionals
@@ -34,16 +36,16 @@ const WhyUs = () => {
                   technologies.
                 </p>
               </div>
-              <hr />
+              <hr className="bg-[#0D9488]" />
             </li>
             <li>
-              <hr />
+              <hr className="bg-[#0D9488]" />
               <div className="timeline-middle">
                 <FaCircleChevronRight className="text-2xl  " />
               </div>
               <div className="timeline-end hover:shadow-2xl duration-300 text-left transition hover:scale-95  px-2 space-y-2 md:w-10/12">
-                <div className=" text-xl font-semibold  text-gray-700k">
-                  Comprehensive Solutions
+                <div className="md:text-2xl text-xl font-semibold  text-black">
+                  Comprehensive Solutions:
                 </div>
                 <p className=" md:text-normal text-sm   text-gray-600 ">
                   From strategic consulting to implementation and ongoing
@@ -51,15 +53,15 @@ const WhyUs = () => {
                   every aspect of your AI journey.
                 </p>
               </div>
-              <hr />
+              <hr className="bg-[#0D9488]" />
             </li>
             <li>
-              <hr />
+              <hr className="bg-[#0D9488]" />
               <div className="timeline-middle ">
-                <FaCircleChevronRight className="text-2xl    " />
+                <FaCircleChevronLeft className="text-2xl    " />
               </div>
               <div className="timeline-start hover:shadow-2xl md:text-end duration-300 transition hover:scale-95  px-2  space-y-2 md:w-10/12">
-                <div className=" text-xl font-semibold   text-gray-700">
+                <div className="md:text-2xl text-xl font-semibold  text-black">
                   Commitment to Excellence:
                 </div>
                 <p className="md:text-normal text-sm   text-gray-600 ">
@@ -67,10 +69,10 @@ const WhyUs = () => {
                   do. We strive to exceed our clients' expectations .
                 </p>
               </div>
-              <hr />
+              <hr className="bg-[#0D9488]" />
             </li>
             <li>
-              <hr />
+              <hr className="bg-[#0D9488]" />
               <div className="timeline-middle">
                 <FaCircleChevronRight className="text-2xl text-black " />
               </div>
@@ -84,15 +86,15 @@ const WhyUs = () => {
                   world.
                 </p>
               </div>
-              <hr />
+              <hr className="bg-[#0D9488]" />
             </li>
             <li>
-              <hr />
+              <hr className="bg-[#0D9488]" />
               <div className="timeline-middle">
-                <FaCircleChevronRight className="text-2xl  text-black " />
+                <FaCircleChevronLeft className="text-2xl  text-black " />
               </div>
               <div className="timeline-start  hover:shadow-2xl duration-300 transition hover:scale-95 px-2 space-y-2  md:text-end  md:w-10/12 w-full">
-                <div className=" text-xl font-semibold   text-gray-700">
+                <div className="md:text-2xl text-xl font-semibold  text-black">
                   Innovative Approach:
                 </div>
                 <p className="md:text-normal text-sm   text-gray-600 ">

@@ -18,7 +18,7 @@ const Featured = () => {
             </div>
           </div>
           <div className="grid gap-x-6 md:grid-cols-2 lg:grid-cols-5 lg:gap-x-12 cursor-pointer">
-            <div className="mb-12 lg:mb-0 border border-[#0D9488] rounded-lg hover:bg-[#c5edd867] transition-transform ">
+            <div className="mb-12 lg:mb-0 border border-[#0D9488] rounded-lg hover:bg-[#6dbe9367] bg-[#c5edd867] transition-transform ">
               <div className=" inline-block rounded-full  p-4 text-primary shadow-sm">
                 <IoBusinessSharp color="#0D9488" size={40} />
               </div>
@@ -27,7 +27,7 @@ const Featured = () => {
               </h5>
             </div>
 
-            <div className="mb-12 lg:mb-0 border border-[#0D9488] rounded-lg hover:bg-[#c5edd867] transition-transform ">
+            <div className="mb-12 lg:mb-0 border border-[#0D9488] rounded-lg hover:bg-[#6dbe9367] bg-[#c5edd867] transition-transform ">
               <div className=" inline-block rounded-full  p-4 text-primary shadow-sm">
                 <HiOutlineChartBar color="#0D9488" size={40} />
               </div>
@@ -36,7 +36,7 @@ const Featured = () => {
               </h5>
             </div>
 
-            <div className="mb-12 lg:mb-0 border border-[#0D9488] rounded-lg hover:bg-[#c5edd867] transition-transform ">
+            <div className="mb-12 lg:mb-0 border border-[#0D9488] rounded-lg hover:bg-[#6dbe9367] bg-[#c5edd867] transition-transform ">
               <div className=" inline-block rounded-full  p-4 text-primary shadow-sm">
                 <MdOutlineSupportAgent color="#0D9488" size={40} />
               </div>
@@ -45,7 +45,7 @@ const Featured = () => {
               </h5>
             </div>
 
-            <div className="mb-12 lg:mb-0 border border-[#0D9488] rounded-lg hover:bg-[#c5edd867] transition-transform ">
+            <div className="mb-12 lg:mb-0 border border-[#0D9488] rounded-lg hover:bg-[#6dbe9367] bg-[#c5edd867] transition-transform ">
               <div className=" inline-block rounded-full  p-4 text-primary shadow-sm">
                 <IoIosCog color="#0D9488" size={44} />
               </div>
@@ -54,7 +54,7 @@ const Featured = () => {
               </h5>
             </div>
 
-            <div className="mb-12 lg:mb-0 border border-[#0D9488] rounded-lg hover:bg-[#c5edd867] transition-transform ">
+            <div className="mb-12 lg:mb-0 border border-[#0D9488] rounded-lg hover:bg-[#6dbe9367] bg-[#c5edd867] transition-transform">
               <div className=" inline-block rounded-full  p-4 text-primary shadow-sm">
                 <IoIosTrendingUp color="#0D9488" size={44} />
               </div>
