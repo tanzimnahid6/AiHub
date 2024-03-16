@@ -1,7 +1,9 @@
 import Email from "./SocialIcone/Email";
 import Facebook from "./SocialIcone/Facebook";
 import LinkedIn from "./SocialIcone/LinkedIn";
-import WhatsApp from "./SocialIcone/WhatsApp";
+import { FaInstagram } from "react-icons/fa";
+import { MdMarkEmailUnread } from "react-icons/md";
+import Instagram from "./SocialIcone/Instagram";
 
 const ContactUs = () => {
   return (
@@ -12,7 +14,7 @@ const ContactUs = () => {
         <section className="mb-32">
           <div className="flex justify-center">
             <div className="text-center md:max-w-xl lg:max-w-3xl">
-              <h2 className="mb-12 px-6 text-3xl font-bold">Contact us</h2>
+              <h2 className="mb-12 px-6 text-3xl font-bold   bg-gradient-to-r from-[#1e6162] to-[#5cc4a8] bg-clip-text text-transparent leading-1">Contact us</h2>
             </div>
           </div>
           <div className="flex flex-wrap">
@@ -90,7 +92,7 @@ const ContactUs = () => {
               <div className="flex flex-wrap">
                 <Facebook></Facebook>
                 <LinkedIn></LinkedIn>
-                <WhatsApp></WhatsApp>
+                <Instagram></Instagram>
                 <Email></Email>
               </div>
             </div>

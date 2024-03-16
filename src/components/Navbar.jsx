@@ -1,8 +1,13 @@
 import { Link, NavLink } from "react-router-dom";
 
 import Logo5 from "../assets/logo5.png";
-
+import { FaUserFriends } from "react-icons/fa";
+import { useState } from "react";
 const Navbar = () => {
+  const [isShow, setIsShow] = useState(true);
+  const handleShow = () => {
+    setIsShow(!isShow);
+  };
   return (
     <div>
       <div className="navbar font-bold py-0 fixed z-30 bg-[#0D9488]  ">
@@ -185,7 +190,7 @@ const Navbar = () => {
             </span>
           </ul>
         </div>
-        <div className="navbar-end">
+        <div className="navbar-end invisible md:visible ">
           <Link to="/login">
             <button className="align-middle select-none font-sans font-bold text-center uppercase transition-all disabled:opacity-50 disabled:shadow-none disabled:pointer-events-none text-xs py-3 px-6 rounded-lg bg-[#236A68] text-white shadow-md shadow-gray-900/10 hover:shadow-lg hover:shadow-gray-900/20 focus:opacity-[0.85] focus:shadow-none active:opacity-[0.85] active:shadow-none m-4">
               Log in
@@ -193,9 +198,20 @@ const Navbar = () => {
           </Link>
           <Link to="/signIn">
             <button className="align-middle select-none font-sans font-bold text-center uppercase transition-all disabled:opacity-50 disabled:shadow-none disabled:pointer-events-none text-xs py-3 px-6 rounded-lg bg-[#236A68] text-white shadow-md shadow-gray-900/10 hover:shadow-lg hover:shadow-gray-900/20 focus:opacity-[0.85] focus:shadow-none active:opacity-[0.85] active:shadow-none m-4">
-            Sign in
+              Sign in
             </button>
           </Link>
+        </div>
+        <div className="md:invisible mr-6">
+          <div
+            className={`w-28 h-28 bg-gray-200 shadow-md rounded-sm absolute top-16 p-4 right-6 flex flex-col gap-2 ${
+              isShow ? "invisible" : "visible"
+            }`}
+          >
+            <Link to='/login'><button className="btn btn-sm w-20">Login</button></Link>
+           <Link to='/signIn'> <button className="btn btn-sm w-20 ">Sign In</button></Link>
+          </div>
+          <FaUserFriends size={30} onClick={handleShow} />
         </div>
       </div>
 
