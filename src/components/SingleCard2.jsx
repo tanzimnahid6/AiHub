@@ -9,7 +9,7 @@ const SingleCard2 = ({
   selectedModel,
   setSelectedModel,
 }) => {
-  const { title, description, gitHubUrl, outputUrl } = project;
+  const { title, description, gitHubUrl, outputUrl, businessImpact } = project;
 
   const handleModelSelection = () => {
     setSelectedModel(project);
@@ -29,6 +29,7 @@ const SingleCard2 = ({
         <Modal
           description={selectedModel.description}
           title={selectedModel.title}
+          businessImpact={selectedModel.businessImpact}
           handleModelClose={handleModelClose}
         />
       )}
