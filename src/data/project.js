@@ -4,6 +4,11 @@ const projects = [
     title: "Churn Prediction And Prevention",
     description:
       "This repository contains Python code for predictive churn analysis in a telecom industry setting. The purpose of this project is to develop a predictive model to identify potential churn customers and analyze factors contributing to customer attrition. The analysis includes exploratory data visualization, statistical summaries, and the implementation of a machine learning model using the RandomForestClassifier.",
+    businessImpact: [
+      { id: 1, description: " By proactively identifying and addressing churn risks, telecom companies can implement targeted retention initiatives, thereby reducing customer attrition and fostering long-term customer loyalty.", title: "Improved Customer Retention" },
+      { id: 2, description: " By retaining existing customers and minimizing churn, telecom companies can maximize revenue potential, capitalize on cross-selling and upselling opportunities, and maintain a competitive edge in the market.", title: "Maximized Revenue Potential" },
+      { id: 3, description: " Leveraging predictive churn analysis allows telecom companies to allocate resources more efficiently, focusing retention efforts on high-risk customers while optimizing marketing and promotional strategies.", title: "Enhanced Operational Efficiency" },
+    ],
     gitHubUrl:
       "https://github.com/proAIrokibul/Churn-Prediction-And-Prevention/blob/main/Model/model.ipynb",
     outputUrl:
@@ -14,6 +19,10 @@ const projects = [
     title: "Costumer Segmentation",
     description:
       "Develop an AI-driven pricing optimization system that adjusts prices in real-time based on factors such as demand, competitor pricing, and customer behavior to maximize revenue and profit.",
+      businessImpact: [
+        { id: 1, description: " This project focuses on analyzing customer data to gain insights into their personalities, preferences, and purchasing behaviors. The dataset contains various attributes for each customer, including demographic information such as age, education, and marital status, as well as details about their purchasing habits, recency of purchases, and history of complaints.", title: "Project Overview" },
+        
+      ],
     gitHubUrl:
       "https://github.com/proAIrokibul/Costomer-Segmentation-using-ML/tree/main/Costomer-Segmentation-using-ML-main/Model",
     outputUrl:
@@ -24,6 +33,11 @@ const projects = [
     title: "Financial Security Enhancement through Credit Card Fraud Detection",
     description:
       "Credit Card Fraud Detection is a critical application of machine learning in the realm of financial security. This project aims to leverage AI and ML techniques to detect fraudulent transactions, ensuring the safety of credit card users and mitigating financial losses for both individuals and financial institutions.",
+      businessImpact: [
+        { id: 1, description: "  By implementing advanced fraud detection mechanisms, financial institutions can significantly mitigate the risk of financial losses resulting from fraudulent activities, thereby safeguarding their assets and enhancing overall operational resilience.", title: "Risk Mitigation" },
+        { id: 2, description: "  Demonstrating a proactive approach to combating financial fraud reinforces customer trust and confidence in financial institutions, fostering long-term relationships and bolstering brand reputation.", title: "Enhanced Trust and Reputation" },
+        { id: 3, description: " Compliance with stringent regulatory standards and mandates pertaining to financial security is imperative for financial institutions. Deploying robust fraud detection systems ensures adherence to regulatory requirements and minimizes the risk of penalties or legal ramifications.", title: " Regulatory Compliance" },
+      ],
     gitHubUrl:
       "https://github.com/proAIrokibul/Fraud-Detection-And-Prevention/blob/main/Model/Fraud%20Detection.ipynb",
     outputUrl:
@@ -34,6 +48,11 @@ const projects = [
     title: "Predictive Maintenance",
     description:
       "In today's industrial landscape, unplanned downtime due to machinery failures can result in significant financial losses and operational disruptions. To mitigate these challenges, predictive maintenance techniques leverage advanced analytics and machine learning algorithms to predict potential failures before they occur. This GitHub project offers a comprehensive solution for predictive maintenance tailored for industrial machinery.",
+      businessImpact: [
+        { id: 1, description: " By accurately predicting machinery failures in advance, organizations can minimize unplanned downtime, reduce maintenance costs, and optimize resource allocation.", title: " Cost Reduction" },
+        { id: 2, description: "  Enables proactive maintenance scheduling, leading to improved equipment reliability, increased operational efficiency, and enhanced production throughput.", title: " Enhanced Productivity" },
+        { id: 3, description: " Helps mitigate safety risks associated with equipment failures, ensuring a safer working environment for employees and preventing potential accidents.", title: "Risk Mitigation" },
+      ],
     gitHubUrl:
       "https://github.com/proAIrokibul/Predictive-Maintenance/blob/main/Predictive%20Maintainace/Model/Predictive_Maintainance.ipynb",
     outputUrl:
