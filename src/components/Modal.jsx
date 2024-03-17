@@ -11,7 +11,7 @@ const Modal = ({ description, title, handleModelClose,businessImpact }) => {
                 </h2>
                 
               </div>
-              <p className="text-sm lg:text-base mb-8 lg:my-16">
+              <p className="text-sm lg:text-base mb-8 lg:my-8">
               <ul className="list-disc list-inside">
                   {businessImpact.map((impact) => (
                     <li key={impact.id} className="my-4">
