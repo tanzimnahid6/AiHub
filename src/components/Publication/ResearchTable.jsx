@@ -9,7 +9,7 @@ import { useState } from "react";
 import { getPublications } from "../../data/publication";
 const publications = getPublications();
 const ResearchTable = () => {
-  let [isOpen, setIsOpen] = useState(true);
+  let [isOpen, setIsOpen] = useState(false);
 
   function closeModal() {
     setIsOpen(false);
@@ -18,10 +18,7 @@ const ResearchTable = () => {
   function openModal() {
     setIsOpen(true);
   }
-  const handlePdfView = (id) => {
-    console.log(id);
-    setIsOpen(true);
-  };
+ 
 
   return (
     <div className="overflow-x-auto">
@@ -40,7 +37,7 @@ const ResearchTable = () => {
           {publications.map((p) => (
             <TableRow
               key={p.id}
-              handlePdfView={handlePdfView}
+             
               publication={p}
              openModal={openModal}
             ></TableRow>

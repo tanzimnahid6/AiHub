@@ -1,7 +1,7 @@
 import { Dialog, Transition } from "@headlessui/react";
 import { Fragment, useState } from "react";
 import { IoMdCloseCircleOutline } from "react-icons/io";
-export default function MyModal({ setIsOpen, isOpen, closeModal }) {
+export default function MyModal({  isOpen, closeModal }) {
   return (
     <>
       <Transition appear show={isOpen} as={Fragment}>
