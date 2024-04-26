@@ -4,7 +4,7 @@ const Email = () => {
     <>
       <a href="#" className="mt-10">
         <div className="flex  items-center gap-5">
-          <BiLogoGmail className="text-3xl text-red-600" />
+          <BiLogoGmail size={30} color="red" />
           <div>
             <p className="font-semibold hover:text-[#1877F2]">Email</p>
             <p className="text-neutral-500 hover:text-[#1877F2]">

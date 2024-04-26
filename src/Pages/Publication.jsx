@@ -1,11 +1,16 @@
 import Heading from "../components/Heading";
+import ResearchTable from "../components/Publication/ResearchTable";
 
 const Publication = () => {
   return (
-    <div className="h-screen mt-24">
-      <div>
-        <Heading>Publication</Heading>
-        <p className="text-xl">At BizNest AI, we're proud to contribute to the forefront of AI-driven business innovation through our published research papers. Covering a wide array of topics from machine learning algorithms to natural language processing and computer vision, our papers offer rigorous analysis and actionable insights aimed at empowering businesses to harness the full potential of AI. By sharing our findings with the academic and business communities, we foster collaboration and drive innovation, ensuring that our clients and partners stay ahead in today's rapidly evolving digital landscape.</p>
+    <div className=" flex flex-col md:flex-row gap-2 border-2 mb-4 ">
+      <div className="md:w-9/12 my-4">
+        <Heading>Research Article</Heading>
+        <ResearchTable></ResearchTable>
+      </div>
+      <div className="border md:w-3/12">
+        <Heading>Book/Patent</Heading>
+        <h1>Coming soon...</h1>
       </div>
     </div>
   );

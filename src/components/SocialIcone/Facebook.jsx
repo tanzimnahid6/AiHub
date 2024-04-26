@@ -4,11 +4,10 @@ const Facebook = () => {
     <>
       <a href="#" className="mt-10">
         <div className="flex  items-center gap-5">
-          <FaFacebookF className="text-3xl text-blue-600" />
+          <FaFacebookF size={30} color="blue" />
           <div>
-            <p className="font-semibold hover:text-[#1877F2]">FaceBook</p>
+            <p className="font-semibold hover:text-[#1877F2]">Facebook</p>
             <p className="text-neutral-500 hover:text-[#1877F2]">
-              {" "}
               www.facebook.com/BizNestAI
             </p>
           </div>

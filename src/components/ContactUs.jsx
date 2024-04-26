@@ -13,14 +13,15 @@ const ContactUs = () => {
         {/* Section: Design Block */}
         <section className="mb-32">
           <div className="flex justify-center">
-            <div className="text-center md:max-w-xl lg:max-w-3xl">
+            <div className="text-center md:max-w-xl lg:max-w-3xl border ">
               <h2 className="mb-12 px-6 text-3xl font-bold   bg-gradient-to-r from-[#1e6162] to-[#5cc4a8] bg-clip-text text-transparent leading-1">
                 Contact us
               </h2>
             </div>
           </div>
-          <div className="flex flex-wrap">
-            <div className="mb-12 w-full shrink-0 grow-0 basis-auto md:px-3 lg:mb-0 lg:w-5/12 lg:px-6">
+
+          <div className="lg:flex-row flex flex-col gap-4 place-items-start items-center">
+            <div className="md:w-2/6 w-full ">
               <form>
                 <div className="relative mb-6" data-te-input-wrapper-init="">
                   <input
@@ -90,7 +91,7 @@ const ContactUs = () => {
                 </button>
               </form>
             </div>
-            <div className="grid md:grid-cols-2 grid-col-1 gap-2">
+            <div className="grid md:w-4/6  w-full md:grid-cols-2 grid-col-1 gap-2 ">
               <Facebook></Facebook>
               <LinkedIn></LinkedIn>
               <Instagram></Instagram>

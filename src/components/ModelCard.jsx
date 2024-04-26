@@ -10,12 +10,9 @@ const ModelCard = () => {
   const [selectedModel, setSelectedModel] = useState(null);
   return (
     <div className="my-14" id="model">
-      
       <Heading>Our Latest Business Oriented Model</Heading>
-      
 
-      <div className="grid grid-cols-1 md:grid-cols-2 md:gap-20 lg:grid-cols-3 gap-6  place-items-center ">
-        
+      <div className="grid grid-cols-1 md:grid-cols-2 md:gap-10 lg:grid-cols-3 gap-4  place-items-center ">
         {projects.length > 0 ? (
           projects.map((p) => (
             <SingleCard2
