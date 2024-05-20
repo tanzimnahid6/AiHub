@@ -108,7 +108,8 @@ const Navbar = () => {
             </ul>
           </div>
           <div className="pl-4 ">
-            <img src={Logo5} className="w-24 h-auto " alt="Logo" />
+            <Link to={'/'}>  <img src={Logo5} className="w-24 h-auto " alt="Logo" /></Link>
+          
           </div>
         </div>
 

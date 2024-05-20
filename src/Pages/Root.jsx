@@ -10,7 +10,7 @@ export const MyContext = createContext("");
 const Root = () => {
   const [bg, setBg] = useState(false);
   return (
-    <div className="bg-[#f4f4d98d] h-full font-serif max-w-[2000px] mx-auto">
+    <div className="bg-[#f7f7e9d0] h-full font-serif max-w-[2000px] mx-auto">
       <MyContext.Provider value={{ bg, setBg }}>
         <Navbar></Navbar>
         <div className="w-11/12 mx-auto  ">

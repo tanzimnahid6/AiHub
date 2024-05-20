@@ -1,3 +1,4 @@
+import Book from "../components/Book";
 import Heading from "../components/Heading";
 import ResearchTable from "../components/Publication/ResearchTable";
 
@@ -10,7 +11,9 @@ const Publication = () => {
       </div>
       <div className="border md:w-3/12">
         <Heading>Book/Patent</Heading>
-        <h1>Coming soon...</h1>
+        <div className="p-5">
+        <Book></Book>
+        </div>
       </div>
     </div>
   );

@@ -13,7 +13,7 @@ const ContactUs = () => {
         {/* Section: Design Block */}
         <section className="mb-32">
           <div className="flex justify-center">
-            <div className="text-center md:max-w-xl lg:max-w-3xl border ">
+            <div className="text-center md:max-w-xl lg:max-w-3xl ">
               <h2 className="mb-12 px-6 text-3xl font-bold   bg-gradient-to-r from-[#1e6162] to-[#5cc4a8] bg-clip-text text-transparent leading-1">
                 Contact us
               </h2>

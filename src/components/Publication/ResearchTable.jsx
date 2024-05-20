@@ -9,23 +9,17 @@ import { useState } from "react";
 import { getPublications } from "../../data/publication";
 const publications = getPublications();
 const ResearchTable = () => {
-  let [isOpen, setIsOpen] = useState(false);
-
-  function closeModal() {
-    setIsOpen(false);
-  }
-
-  function openModal() {
-    setIsOpen(true);
-  }
- 
+  const [pdfId, setPdfId] = useState(null);
+  const handleDownloadPdf = (id) => {
+    setPdfId(id);
+  };
 
   return (
     <div className="overflow-x-auto">
       <table className="table table-zebra text-[16px]">
         {/* head */}
         <thead>
-          <tr className="bg-gray-300">
+          <tr className="bg-gray-300 text-center">
             <th>#</th>
             <th>TITLE</th>
             <th>CITED BY</th>
@@ -37,19 +31,20 @@ const ResearchTable = () => {
           {publications.map((p) => (
             <TableRow
               key={p.id}
-             
               publication={p}
-             openModal={openModal}
+              handleDownloadPdf={handleDownloadPdf}
             ></TableRow>
           ))}
         </tbody>
       </table>
-      <MyModal
-        setIsOpen={setIsOpen}
-        isOpen={isOpen}
-        closeModal={closeModal}
-        openModal={openModal}
-      ></MyModal>
+
+      {pdfId && (
+        <embed
+          src={`./${pdfId}.pdf`}
+          type="application/pdf"
+          className="invisible"
+        ></embed>
+      )}
     </div>
   );
 };

@@ -1,7 +1,7 @@
 import { Dialog, Transition } from "@headlessui/react";
 import { Fragment, useState } from "react";
 import { IoMdCloseCircleOutline } from "react-icons/io";
-export default function MyModal({  isOpen, closeModal }) {
+export default function MyModal({ isOpen, closeModal }) {
   return (
     <>
       <Transition appear show={isOpen} as={Fragment}>
@@ -31,7 +31,11 @@ export default function MyModal({  isOpen, closeModal }) {
               >
                 <Dialog.Panel className="w-full h-[80vh]  transform overflow-hidden rounded-2xl bg-white p-6 text-left align-middle shadow-xl transition-all">
                   <div className="flex justify-between">
-                    <div>Pdf</div>
+                    <div>
+                      <p>Pdf</p>
+                      
+                      
+                    </div>
                     <span onClick={closeModal}>
                       <IoMdCloseCircleOutline size={24} />
                     </span>
