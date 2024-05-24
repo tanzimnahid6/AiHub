@@ -23,21 +23,10 @@ const Book = () => {
 
       <div>
         <p className="mt-4">
-          Machine learning can play a critical role in geospatial analysis,
-          providing enhanced computing efficiency, flexibility, and scalability,
-          improved predictive capabilities, complicated problem resolution, and
-          information extraction from big datasets. Python has emerged as the
-          predominant language for geospatial machine learning due to its
-          user-friendly interface, extensive library support, and versatility.
-          This chapter has explored a diverse ecosystem of Python libraries
-          ranging from Geopandas, Fiona, Leafmap, Geemap, PySAL, and Shapely for
-          geospatial data manipulation to Keras Spatial, TorchGeo, Scikit-learn,
-          and TensorFlow for deep learning applications. Complementing this, it
-          also explored a variety of QGIS Python plugins that enhance geospatial
-          machine learning capabilities, including smart-map, cluster analysis,
-          PyQGIS, ClusterPoints, AI vectorizer, mapflow, deepness, and many
-          more, offering functionalities for digital mapping, clustering, and
-          map segmentation.
+           Machine learning boosts geospatial analysis, with Python
+          leading due to its ease of use and robust libraries. This chapter
+          covers Python libraries and QGIS plugins for advanced geospatial
+          tasks. map segmentation.
         </p>
       </div>
     </>

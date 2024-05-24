@@ -22,7 +22,7 @@ const ResearchTable = () => {
           <tr className="bg-gray-300 text-center">
             <th>#</th>
             <th>TITLE</th>
-            <th>CITED BY</th>
+        
             <th>YEAR</th>
             <th>PDF</th>
           </tr>
